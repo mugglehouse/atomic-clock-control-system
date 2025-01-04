@@ -1,0 +1,915 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jan 03 20:47:13 2025
+# Process ID: 18836
+# Current directory: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/top.vds
+# Journal file: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7k325tfbg676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22612 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 327.754 ; gain = 117.473
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:1]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:56]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:58]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:97]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:102]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:111]
+INFO: [Synth 8-638] synthesizing module 'clock_module' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clock_module.v:1]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clock_module.v:24]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clock_module.v:26]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14146]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (1#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:14146]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (2#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clk_wiz_0.v:73]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0_clk_wiz' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clk_wiz_0_clk_wiz.v:71]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20414]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 20.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 20.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 100.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 20 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 10 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (3#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0_clk_wiz' (4#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clk_wiz_0_clk_wiz.v:71]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (5#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clk_wiz_0.v:73]
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:16182]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (6#1) [E:/vivado/Vivado/2016.4/scripts/rt/data/unisim_comp.v:16182]
+INFO: [Synth 8-256] done synthesizing module 'clock_module' (7#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/clock/clock_module.v:1]
+INFO: [Synth 8-638] synthesizing module 'vio_2' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/vio_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vio_2' (8#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/vio_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ad9172_inf' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/ad9172_inf_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'ad9172_inf' (9#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/ad9172_inf_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'ad_inf' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/ad_inf_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'ad_inf' (10#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/ad_inf_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'vio_dac_vc_dds' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/vio_dac_vc_dds_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vio_dac_vc_dds' (11#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/vio_dac_vc_dds_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'triangle_wave' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/triangle_wave.v:1]
+	Parameter ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (12#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-5788] Register dac_dds_data_reg in module triangle_wave is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/triangle_wave.v:55]
+INFO: [Synth 8-256] done synthesizing module 'triangle_wave' (13#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/triangle_wave.v:1]
+INFO: [Synth 8-638] synthesizing module 'ad9783_inf' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/ad9783_inf_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'ad9783_inf' (14#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/ad9783_inf_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'vio_dds_1' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/vio_dds_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vio_dds_1' (15#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/vio_dds_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dds_for_7_series_iq' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:19]
+	Parameter DAC_BITWIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:134]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:140]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "yes" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:143]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:143]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "yes" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:148]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "yes" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:151]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:151]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "yes" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:154]
+INFO: [Synth 8-5534] Detected attribute (* MARK_DEBUG = "true" *) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:158]
+INFO: [Synth 8-638] synthesizing module 'value_att_round' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:11]
+	Parameter IN_WIDTH bound to: 16 - type: integer 
+	Parameter OUT_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'value_att_round' (16#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:11]
+INFO: [Synth 8-638] synthesizing module 'dds_16chl' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/dds_16chl_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'dds_16chl' (17#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/realtime/dds_16chl_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'dds_for_7_series_iq' (18#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:19]
+INFO: [Synth 8-638] synthesizing module 'freq_calc' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/freq_calc.v:2]
+	Parameter ST_STANDARD_IDLE bound to: 3'b000 
+	Parameter ST_STANDARD_START bound to: 3'b001 
+	Parameter ST_STANDARD_COUNTING bound to: 3'b010 
+	Parameter ST_STANDARD_END bound to: 3'b011 
+	Parameter ST_STANDARD_GAP bound to: 3'b100 
+	Parameter ST_TOBE_IDLE bound to: 3'b000 
+	Parameter ST_TOBE_START bound to: 3'b001 
+	Parameter ST_TOBE_COUNTING bound to: 3'b010 
+	Parameter ST_TOBE_END bound to: 3'b011 
+	Parameter ST_TOBE_GAP bound to: 3'b100 
+INFO: [Synth 8-256] done synthesizing module 'freq_calc' (19#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/freq_calc.v:2]
+INFO: [Synth 8-256] done synthesizing module 'top' (20#1) [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 366.465 ; gain = 156.184
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 366.465 ; gain = 156.184
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ad9172_inf' instantiated as 'u_ad9172_inf' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:151]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ad9783_inf' instantiated as 'u_ad9783_inf' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:254]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ad_inf' instantiated as 'u_ad_inf' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:210]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_gen_0' instantiated as 'u_triangle_wave/u_blk_mem_gen_0' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/triangle_wave.v:34]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'dds_16chl' instantiated as 'u_dds_for_7_series_iq/u_dds0_16chl'. 2 instances of this cell are unresolved black boxes. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:340]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'vio_2' instantiated as 'u_vio_2' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:130]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'vio_dac_vc_dds' instantiated as 'u_vio_dac_vc_dds' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:236]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'vio_dds_1' instantiated as 'u_vio_dds_1' [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/top/top.v:288]
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tfbg676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp/dds_16chl_in_context.xdc] for cell 'u_dds_for_7_series_iq/u_dds0_16chl'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp/dds_16chl_in_context.xdc] for cell 'u_dds_for_7_series_iq/u_dds0_16chl'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp/dds_16chl_in_context.xdc] for cell 'u_dds_for_7_series_iq/u_dds1_16chl'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp/dds_16chl_in_context.xdc] for cell 'u_dds_for_7_series_iq/u_dds1_16chl'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc] for cell 'u_ad9172_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc] for cell 'u_ad9172_inf'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc] for cell 'u_ad9783_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc] for cell 'u_ad9783_inf'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc] for cell 'u_ad_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc] for cell 'u_ad_inf'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_5/vio_2_in_context.xdc] for cell 'u_vio_2'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_5/vio_2_in_context.xdc] for cell 'u_vio_2'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_6/vio_dds_1_in_context.xdc] for cell 'u_vio_dds_1'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_6/vio_dds_1_in_context.xdc] for cell 'u_vio_dds_1'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_7/blk_mem_gen_0_in_context.xdc] for cell 'u_triangle_wave/u_blk_mem_gen_0'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_7/blk_mem_gen_0_in_context.xdc] for cell 'u_triangle_wave/u_blk_mem_gen_0'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_8/vio_dac_vc_dds_in_context.xdc] for cell 'u_vio_dac_vc_dds'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_8/vio_dac_vc_dds_in_context.xdc] for cell 'u_vio_dac_vc_dds'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9783.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9783.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9783.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc]
+WARNING: [Constraints 18-619] A clock with name 'ad_clk' already exists, overwriting the previous clock with the same name. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc:12]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9172.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9172.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9172.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc:1]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 755.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 755.523 ; gain = 545.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tfbg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 755.523 ; gain = 545.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_sck. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_sck. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_sda. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_sda. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_sync204_n[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_sync204_n[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_sync204_n[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_sync204_n[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_sync204_p[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_sync204_p[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9172_sync204_p[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9172_sync204_p[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_glblclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_glblclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_glblclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 17).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_glblclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 18).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_lmk_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 19).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_lmk_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 20).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_lmk_sck. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 21).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_lmk_sck. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 22).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_lmk_sdi. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 23).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_lmk_sdi. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 24).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_lmk_sdo. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 25).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_lmk_sdo. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 26).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_refclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 27).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_refclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 28).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_refclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 29).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_refclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 30).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_sysref_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 31).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_sysref_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 32).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_sysref_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 33).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_sysref_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_2/ad9172_inf_in_context.xdc, line 34).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_clk_i_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_clk_i_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_clk_i_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_clk_i_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_clk_o_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_clk_o_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_clk_o_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_clk_o_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[10]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[10]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[11]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[11]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[12]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[12]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[13]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 17).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[13]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 18).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[14]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 19).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[14]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 20).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[15]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 21).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[15]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 22).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 23).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 24).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[2]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 25).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[2]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 26).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[3]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 27).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[3]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 28).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[4]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 29).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[4]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 30).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[5]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 31).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[5]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 32).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[6]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 33).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[6]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 34).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[7]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 35).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[7]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 36).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[8]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 37).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[8]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 38).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_n[9]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 39).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_n[9]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 40).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 41).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 42).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[10]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 43).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[10]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 44).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[11]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 45).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[11]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 46).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[12]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 47).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[12]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 48).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[13]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 49).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[13]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 50).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[14]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 51).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[14]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 52).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[15]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 53).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[15]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 54).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 55).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 56).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[2]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 57).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[2]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 58).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[3]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 59).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[3]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 60).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[4]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 61).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[4]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 62).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[5]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 63).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[5]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 64).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[6]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 65).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[6]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 66).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[7]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 67).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[7]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 68).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[8]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 69).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[8]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 70).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_data_p[9]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 71).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_data_p[9]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 72).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_refclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 73).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_refclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 74).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_refclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 75).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_refclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 76).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_spi_clk. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 77).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_spi_clk. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 78).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_spi_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 79).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_spi_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 80).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_ad9783_spi_sda. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 81).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_ad9783_spi_sda. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_3/ad9783_inf_in_context.xdc, line 82).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_clk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_clk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_clk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_clk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_data0_in_n[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_data0_in_n[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_data0_in_n[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_data0_in_n[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_data0_in_p[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_data0_in_p[0]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_data0_in_p[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_data0_in_p[1]. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_dclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_dclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_dclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_dclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_fcoclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 17).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_fcoclk_n. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 18).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_fcoclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 19).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_fcoclk_p. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 20).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_spi_clk. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 21).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_spi_clk. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 22).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_spi_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 23).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_spi_csb. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 24).
+Applied set_property IO_BUFFER_TYPE = NONE for iob_adc_spi_dio. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 25).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for iob_adc_spi_dio. (constraint file  D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/.Xil/Vivado-18836-LAPTOP-3JN8PSQD/dcp_4/ad_inf_in_context.xdc, line 26).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 755.523 ; gain = 545.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "clk_slow_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:297]
+WARNING: [Synth 8-3936] Found unconnected internal register 'dds_freq_imd_1024kHz_reg' and it is trimmed from '43' to '32' bits. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:279]
+WARNING: [Synth 8-3936] Found unconnected internal register 'dds_delay_reg_reg' and it is trimmed from '16' to '15' bits. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:287]
+WARNING: [Synth 8-3936] Found unconnected internal register 'dds_freq_max_39bit_reg' and it is trimmed from '39' to '32' bits. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:273]
+WARNING: [Synth 8-3936] Found unconnected internal register 'dds_freq_min_39bit_reg' and it is trimmed from '39' to '32' bits. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:269]
+INFO: [Synth 8-802] inferred FSM for state register 'state_std_reg' in module 'freq_calc'
+INFO: [Synth 8-802] inferred FSM for state register 'state_tobe_reg' in module 'freq_calc'
+INFO: [Synth 8-5545] ROM "cnt_timing_std" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state_std" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "end_flag_std" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "start_flag_std" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_timing_std" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_std" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "valid_freq_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_tobe" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        ST_STANDARD_IDLE |                              000 |                              000
+       ST_STANDARD_START |                              001 |                              001
+    ST_STANDARD_COUNTING |                              010 |                              010
+         ST_STANDARD_END |                              011 |                              011
+         ST_STANDARD_GAP |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_std_reg' using encoding 'sequential' in module 'freq_calc'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            ST_TOBE_IDLE |                              000 |                              000
+           ST_TOBE_START |                              001 |                              001
+        ST_TOBE_COUNTING |                              010 |                              010
+             ST_TOBE_END |                              011 |                              011
+             ST_TOBE_GAP |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_tobe_reg' using encoding 'sequential' in module 'freq_calc'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 755.523 ; gain = 545.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------+------------+----------+
+|      |RTL Partition            |Replication |Instances |
++------+-------------------------+------------+----------+
+|1     |clock_module__GC0        |           1|       152|
+|2     |value_att_round          |          32|      9433|
+|3     |dds_for_7_series_iq__GC0 |           1|      9865|
+|4     |top__GC0                 |           1|      3620|
++------+-------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 7     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 32    
+	   3 Input     17 Bit       Adders := 32    
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               48 Bit    Registers := 2     
+	               32 Bit    Registers := 42    
+	               17 Bit    Registers := 32    
+	               16 Bit    Registers := 194   
+	               15 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   5 Input     32 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 34    
+	   2 Input     10 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module clock_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module value_att_round 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+Module dds_for_7_series_iq 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	   3 Input     32 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 32    
+	   2 Input     15 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 2     
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 64    
+	               15 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     16 Bit        Muxes := 32    
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module triangle_wave 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module freq_calc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   5 Input     32 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "clk_slow_in" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP value_multip_result0, operation Mode is: A*B.
+DSP Report: operator value_multip_result0 is absorbed into DSP value_multip_result0.
+WARNING: [Synth 8-3936] Found unconnected internal register 'dds_freq_imd_kHz_reg' and it is trimmed from '48' to '15' bits. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:280]
+WARNING: [Synth 8-3936] Found unconnected internal register 'dds_freq_imd_kHz_reg' and it is trimmed from '48' to '17' bits. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/dds_for_7_series_iq.v:280]
+DSP Report: Generating DSP dds_freq_max_reg, operation Mode is: (A*B)'.
+DSP Report: register dds_freq_max_reg is absorbed into DSP dds_freq_max_reg.
+DSP Report: register dds_freq_max_39bit_reg is absorbed into DSP dds_freq_max_reg.
+DSP Report: operator dds_freq_max_39bit0 is absorbed into DSP dds_freq_max_reg.
+DSP Report: Generating DSP dds_freq_hop_1024kHz_reg, operation Mode is: (A*B)'.
+DSP Report: register dds_freq_hop_1024kHz_reg is absorbed into DSP dds_freq_hop_1024kHz_reg.
+DSP Report: operator dds_freq_hop_1024kHz_reg0 is absorbed into DSP dds_freq_hop_1024kHz_reg.
+DSP Report: Generating DSP dds_freq_setup_39bit_reg, operation Mode is: (A*B)'.
+DSP Report: register dds_freq_setup_39bit_reg is absorbed into DSP dds_freq_setup_39bit_reg.
+DSP Report: operator dds_freq_setup_39bit_reg0 is absorbed into DSP dds_freq_setup_39bit_reg.
+DSP Report: Generating DSP dds_freq_min_reg, operation Mode is: (A*B)'.
+DSP Report: register dds_freq_min_reg is absorbed into DSP dds_freq_min_reg.
+DSP Report: register dds_freq_min_39bit_reg is absorbed into DSP dds_freq_min_reg.
+DSP Report: operator dds_freq_min_39bit0 is absorbed into DSP dds_freq_min_reg.
+DSP Report: Generating DSP dds_freq_imd_1024kHz_reg, operation Mode is: (A*B)'.
+DSP Report: register dds_freq_imd_1024kHz_reg is absorbed into DSP dds_freq_imd_1024kHz_reg.
+DSP Report: operator dds_freq_imd_1024kHz0 is absorbed into DSP dds_freq_imd_1024kHz_reg.
+DSP Report: operator dds_freq_imd_1024kHz0 is absorbed into DSP dds_freq_imd_1024kHz_reg.
+DSP Report: Generating DSP dds_freq_imd_kHz_reg, operation Mode is: (PCIN>>17)+(A*B)'.
+DSP Report: register dds_freq_imd_kHz_reg is absorbed into DSP dds_freq_imd_kHz_reg.
+DSP Report: register dds_freq_imd_1024kHz_reg is absorbed into DSP dds_freq_imd_kHz_reg.
+DSP Report: operator dds_freq_imd_1024kHz0 is absorbed into DSP dds_freq_imd_kHz_reg.
+DSP Report: operator dds_freq_imd_1024kHz0 is absorbed into DSP dds_freq_imd_kHz_reg.
+DSP Report: Generating DSP scaled_output, operation Mode is: A*B.
+DSP Report: operator scaled_output is absorbed into DSP scaled_output.
+INFO: [Synth 8-5545] ROM "state_std" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cnt_timing_std" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (value_att_round:/\value_multip_reg_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (value_multip_reg_reg[15]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_reg_d1_reg[15]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_reg_d2_reg[15]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[31]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[14]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[13]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[12]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[11]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[10]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[9]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[8]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[7]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[6]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[5]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[4]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[3]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[2]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[1]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_multip_result_reg[0]) is unused and will be removed from module value_att_round.
+WARNING: [Synth 8-3332] Sequential element (value_out_sum_reg[16]) is unused and will be removed from module value_att_round.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:34 . Memory (MB): peak = 755.523 ; gain = 545.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++--------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name         | DSP Mapping       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|value_att_round     | A*B               | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dds_for_7_series_iq | (A*B)'            | 23     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 1    | 1    | 
+|dds_for_7_series_iq | (A*B)'            | 23     | 16     | -      | -      | 39     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dds_for_7_series_iq | (A*B)'            | 23     | 16     | -      | -      | 39     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dds_for_7_series_iq | (A*B)'            | 23     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 1    | 1    | 
+|dds_for_7_series_iq | (A*B)'            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dds_for_7_series_iq | (PCIN>>17)+(A*B)' | 21     | 7      | -      | -      | 15     | 0    | 0    | -    | -    | -     | 1    | 1    | 
+|triangle_wave       | A*B               | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------+------------+----------+
+|      |RTL Partition            |Replication |Instances |
++------+-------------------------+------------+----------+
+|1     |clock_module__GC0        |           1|        53|
+|2     |value_att_round          |          32|      1124|
+|3     |dds_for_7_series_iq__GC0 |           1|      5500|
+|4     |top__GC0                 |           1|      2100|
++------+-------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'ad_clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:46 . Memory (MB): peak = 755.523 ; gain = 545.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:46 . Memory (MB): peak = 761.832 ; gain = 551.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------+------------+----------+
+|      |RTL Partition            |Replication |Instances |
++------+-------------------------+------------+----------+
+|1     |clock_module__GC0        |           1|        53|
+|2     |value_att_round          |          32|      1124|
+|3     |dds_for_7_series_iq__GC0 |           1|      5500|
+|4     |top__GC0                 |           1|      2100|
++------+-------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:583]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/src/dds/value_att_round.v:37]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:49 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin u_clock_module/input_clk_stopped_inferred:in0 to constant 0
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module u_blk_mem_gen_0 has unconnected pin dina[0]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:50 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:50 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name         | RTL Name              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|dds_for_7_series_iq | dds_delay_reg_reg[14] | 15     | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |dds_16chl      |         2|
+|2     |vio_2          |         1|
+|3     |ad9172_inf     |         1|
+|4     |ad_inf         |         1|
+|5     |vio_dac_vc_dds |         1|
+|6     |blk_mem_gen_0  |         1|
+|7     |ad9783_inf     |         1|
+|8     |vio_dds_1      |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |ad9172_inf     |     1|
+|2     |ad9783_inf     |     1|
+|3     |ad_inf         |     1|
+|4     |blk_mem_gen_0  |     1|
+|5     |dds_16chl      |     1|
+|6     |dds_16chl__1   |     1|
+|7     |vio_2          |     1|
+|8     |vio_dac_vc_dds |     1|
+|9     |vio_dds_1      |     1|
+|10    |BUFG           |     7|
+|11    |CARRY4         |   488|
+|12    |DSP48E1        |     1|
+|13    |DSP48E1_1      |     3|
+|14    |DSP48E1_2      |     3|
+|15    |DSP48E1_3      |    32|
+|16    |IDELAYCTRL     |     1|
+|17    |LUT1           |   144|
+|18    |LUT2           |  1467|
+|19    |LUT3           |   390|
+|20    |LUT4           |   394|
+|21    |LUT5           |   759|
+|22    |LUT6           |  4460|
+|23    |MMCME2_ADV     |     1|
+|24    |MUXF7          |  1568|
+|25    |MUXF8          |   384|
+|26    |SRL16E         |     1|
+|27    |FDCE           |  2749|
+|28    |FDPE           |    17|
+|29    |FDRE           |   659|
+|30    |FDSE           |     1|
+|31    |LDC            |    16|
+|32    |IBUF           |     2|
+|33    |OBUF           |    20|
++------+---------------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------+--------------------+------+
+|      |Instance                                        |Module              |Cells |
++------+------------------------------------------------+--------------------+------+
+|1     |top                                             |                    | 15613|
+|2     |  u_dds_for_7_series_iq                         |dds_for_7_series_iq | 13948|
+|3     |    \u_value_att_round[0].dac_value_att_round   |value_att_round     |   325|
+|4     |    \u_value_att_round[10].dac_value_att_round  |value_att_round_0   |   325|
+|5     |    \u_value_att_round[11].dac_value_att_round  |value_att_round_1   |   325|
+|6     |    \u_value_att_round[12].dac_value_att_round  |value_att_round_2   |   325|
+|7     |    \u_value_att_round[13].dac_value_att_round  |value_att_round_3   |   325|
+|8     |    \u_value_att_round[14].dac_value_att_round  |value_att_round_4   |   325|
+|9     |    \u_value_att_round[15].dac_value_att_round  |value_att_round_5   |   325|
+|10    |    \u_value_att_round[16].dac_value_att_round  |value_att_round_6   |   325|
+|11    |    \u_value_att_round[17].dac_value_att_round  |value_att_round_7   |   325|
+|12    |    \u_value_att_round[18].dac_value_att_round  |value_att_round_8   |   325|
+|13    |    \u_value_att_round[19].dac_value_att_round  |value_att_round_9   |   325|
+|14    |    \u_value_att_round[1].dac_value_att_round   |value_att_round_10  |   325|
+|15    |    \u_value_att_round[20].dac_value_att_round  |value_att_round_11  |   325|
+|16    |    \u_value_att_round[21].dac_value_att_round  |value_att_round_12  |   325|
+|17    |    \u_value_att_round[22].dac_value_att_round  |value_att_round_13  |   325|
+|18    |    \u_value_att_round[23].dac_value_att_round  |value_att_round_14  |   325|
+|19    |    \u_value_att_round[24].dac_value_att_round  |value_att_round_15  |   325|
+|20    |    \u_value_att_round[25].dac_value_att_round  |value_att_round_16  |   325|
+|21    |    \u_value_att_round[26].dac_value_att_round  |value_att_round_17  |   325|
+|22    |    \u_value_att_round[27].dac_value_att_round  |value_att_round_18  |   325|
+|23    |    \u_value_att_round[28].dac_value_att_round  |value_att_round_19  |   325|
+|24    |    \u_value_att_round[29].dac_value_att_round  |value_att_round_20  |   325|
+|25    |    \u_value_att_round[2].dac_value_att_round   |value_att_round_21  |   325|
+|26    |    \u_value_att_round[30].dac_value_att_round  |value_att_round_22  |   326|
+|27    |    \u_value_att_round[31].dac_value_att_round  |value_att_round_23  |   325|
+|28    |    \u_value_att_round[3].dac_value_att_round   |value_att_round_24  |   325|
+|29    |    \u_value_att_round[4].dac_value_att_round   |value_att_round_25  |   325|
+|30    |    \u_value_att_round[5].dac_value_att_round   |value_att_round_26  |   325|
+|31    |    \u_value_att_round[6].dac_value_att_round   |value_att_round_27  |   325|
+|32    |    \u_value_att_round[7].dac_value_att_round   |value_att_round_28  |   325|
+|33    |    \u_value_att_round[8].dac_value_att_round   |value_att_round_29  |   325|
+|34    |    \u_value_att_round[9].dac_value_att_round   |value_att_round_30  |   325|
+|35    |  u_triangle_wave                               |triangle_wave       |   255|
+|36    |  u1_freq_calc                                  |freq_calc           |   308|
+|37    |  u_clock_module                                |clock_module        |    40|
+|38    |    u_clk_wiz_sysclk                            |clk_wiz_0           |     6|
+|39    |      inst                                      |clk_wiz_0_clk_wiz   |     6|
++------+------------------------------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 785.152 ; gain = 574.871
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 17 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 785.152 ; gain = 139.742
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:52 . Memory (MB): peak = 785.152 ; gain = 574.871
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 546 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LDC => LDCE: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+134 Infos, 38 Warnings, 17 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 785.152 ; gain = 537.371
+INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/synth_1/top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 785.152 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 03 20:48:11 2025...

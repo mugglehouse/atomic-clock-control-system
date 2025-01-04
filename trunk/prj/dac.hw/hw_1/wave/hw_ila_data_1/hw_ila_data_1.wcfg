@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="607649fs"></ZoomEndTime>
+      <Cursor1Time time="233000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="276"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="u_ad_inf/adc_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/adc_ready</obj_property>
+      <obj_property name="ObjectShortName">adc_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_cfg_module/u_initial_adc/cal_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_cfg_module/u_initial_adc/cal_done</obj_property>
+      <obj_property name="ObjectShortName">cal_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/adc_data_sample" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/adc_data_sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_sample[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/adc_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/adc_ready</obj_property>
+      <obj_property name="ObjectShortName">adc_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/cali_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/cali_done</obj_property>
+      <obj_property name="ObjectShortName">cali_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/flag_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/flag_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flag_value[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/length_flag_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/length_flag_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">length_flag_value[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/max_length_flag_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/max_length_flag_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">max_length_flag_value[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/max_standard_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/max_standard_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">max_standard_value[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/rst_iob" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/rst_iob</obj_property>
+      <obj_property name="ObjectShortName">rst_iob</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/standard_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/standard_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">standard_value[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">value[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_ctrl_module/value_c0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/value_c0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">value_c0[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/adc_data0_sample" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/adc_data0_sample[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data0_sample[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/bitslip" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/bitslip</obj_property>
+      <obj_property name="ObjectShortName">bitslip</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/cnt_shift" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/cnt_shift[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_shift[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/data0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/data0[11:1]</obj_property>
+      <obj_property name="ObjectShortName">data0[11:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/rst" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad_inf/u_adc_sample_interface/u_iob_module_int/state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

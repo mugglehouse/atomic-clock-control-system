@@ -1,0 +1,703 @@
+
+*** Running vivado
+    with args -log top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/dcp/ad9172_inf.dcp' for cell 'u_ad9172_inf'
+INFO: [Project 1-454] Reading design checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/dcp/ad9783_inf.dcp' for cell 'u_ad9783_inf'
+INFO: [Project 1-454] Reading design checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/dcp/ad_inf.dcp' for cell 'u_ad_inf'
+INFO: [Project 1-454] Reading design checkpoint 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.dcp' for cell 'u_vio_2'
+INFO: [Project 1-454] Reading design checkpoint 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp' for cell 'u_vio_dac_vc_dds'
+INFO: [Project 1-454] Reading design checkpoint 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.dcp' for cell 'u_vio_dds_1'
+INFO: [Project 1-454] Reading design checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/dcp/dds_16chl.dcp' for cell 'u_dds_for_7_series_iq/u_dds0_16chl'
+INFO: [Project 1-454] Reading design checkpoint 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'u_triangle_wave/u_blk_mem_gen_0'
+INFO: [Netlist 29-17] Analyzing 2018 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7k325tfbg676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/clk_user_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21408]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[0]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21509]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[10]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21579]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[11]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21586]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[12]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21593]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[13]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21600]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[14]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21607]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[15]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21614]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[1]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21516]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[2]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21523]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[3]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21530]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[4]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21537]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[5]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21544]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[6]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21551]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[7]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21558]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[8]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21565]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[9]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21572]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_refclk_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21420]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad_inf/clk_10m_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_5/ad_inf.edf:11520]
+Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.xdc] for cell 'u_vio_2'
+Finished Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.xdc] for cell 'u_vio_2'
+Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.xdc] for cell 'u_vio_dds_1'
+Finished Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.xdc] for cell 'u_vio_dds_1'
+Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.xdc] for cell 'u_vio_dac_vc_dds'
+Finished Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.xdc] for cell 'u_vio_dac_vc_dds'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_early.xdc] for cell 'u_ad9172_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_early.xdc] for cell 'u_ad9172_inf'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[0]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[1]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[2]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[3]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[4]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[5]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[6]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[7]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[8]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[9]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[10]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[11]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[12]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[13]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[14]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out_amp[15]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_4' was not found. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:9]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[0]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[1]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[2]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[3]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[4]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[5]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[6]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[7]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[8]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[9]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[10]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[11]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[12]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[13]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[14]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+WARNING: [Vivado 12-507] No nets matched 'dds_out[15]'. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_4' was not found. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc:10]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc]
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9783.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9783.xdc]
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc]
+WARNING: [Constraints 18-619] A clock with name 'ad_clk' already exists, overwriting the previous clock with the same name. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc:12]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/hqnuo_ck_cptatomicclk_adc.xdc]
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9172.xdc]
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/ad9172.xdc]
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc:1]
+INFO: [Timing 38-2] Deriving generated clocks [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc:1]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1313.445 ; gain = 609.355
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_late.xdc] for cell 'u_ad9172_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_late.xdc] for cell 'u_ad9172_inf'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+  OBUFDS => OBUFDS: 19 instances
+
+link_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 1313.445 ; gain = 1065.746
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1313.445 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2016.4/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:2.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:2.0", from Vivado IP cache entry "8c2ef964cf026f54".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "dc5c2515e58981b6".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_1_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "e1601a1eb8a4bd5f".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_2_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "a202668a00dc7903".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_3_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "e171057e0b5b0b57".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_4_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "8086a781c87f1ff0".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_5_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "e4bcdf78378aa0c2".
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1590.164 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: abc6c283
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:04:43 . Memory (MB): peak = 1590.164 ; gain = 266.844
+Implement Debug Cores | Checksum: 123247f14
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 124 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 22f478a77
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:05:05 . Memory (MB): peak = 1792.070 ; gain = 468.750
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 3 load pin(s).
+INFO: [Opt 31-10] Eliminated 6094 cells.
+Phase 3 Constant propagation | Checksum: 1b38a73a9
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:05:30 . Memory (MB): peak = 1792.070 ; gain = 468.750
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 14308 unconnected nets.
+INFO: [Opt 31-11] Eliminated 6031 unconnected cells.
+Phase 4 Sweep | Checksum: 1ef5366d4
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:06:13 . Memory (MB): peak = 1792.070 ; gain = 468.750
+
+Phase 5 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 5 BUFG optimization | Checksum: 2a006a786
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:06:24 . Memory (MB): peak = 1792.070 ; gain = 468.750
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.250 . Memory (MB): peak = 1792.070 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 2a006a786
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:06:25 . Memory (MB): peak = 1792.070 ; gain = 468.750
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 69 BRAM(s) out of a total of 334 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 39 newly gated: 0 Total Ports: 668
+Ending PowerOpt Patch Enables Task | Checksum: 1bfce6b80
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.395 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1bfce6b80
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:41 . Memory (MB): peak = 2868.344 ; gain = 1076.273
+INFO: [Common 17-83] Releasing license: Implementation
+76 Infos, 52 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:02:19 ; elapsed = 00:07:12 . Memory (MB): peak = 2868.344 ; gain = 1554.898
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.157 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.297 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: fd81fb89
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 19ad7b09e
+
+Time (s): cpu = 00:04:19 ; elapsed = 17:16:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 19ad7b09e
+
+Time (s): cpu = 00:04:19 ; elapsed = 17:16:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 19ad7b09e
+
+Time (s): cpu = 00:04:20 ; elapsed = 17:16:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 234cbf2ce
+
+Time (s): cpu = 00:05:21 ; elapsed = 17:17:47 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 234cbf2ce
+
+Time (s): cpu = 00:05:21 ; elapsed = 17:17:47 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 176bde912
+
+Time (s): cpu = 00:05:33 ; elapsed = 17:18:04 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 15f364088
+
+Time (s): cpu = 00:05:34 ; elapsed = 17:18:05 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 17221a8f5
+
+Time (s): cpu = 00:05:34 ; elapsed = 17:18:06 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1c07e67d4
+
+Time (s): cpu = 00:05:37 ; elapsed = 17:18:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+
+Phase 3.6.1 Place Remaining
+Phase 3.6.1 Place Remaining | Checksum: f6663584
+
+Time (s): cpu = 00:05:54 ; elapsed = 17:18:42 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 3.6 Small Shape Detail Placement | Checksum: f6663584
+
+Time (s): cpu = 00:05:55 ; elapsed = 17:18:43 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 17e3ef228
+
+Time (s): cpu = 00:05:57 ; elapsed = 17:18:46 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 929e95bf
+
+Time (s): cpu = 00:05:58 ; elapsed = 17:18:47 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 929e95bf
+
+Time (s): cpu = 00:05:59 ; elapsed = 17:18:49 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=4.089. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: a02a968f
+
+Time (s): cpu = 00:06:13 ; elapsed = 17:19:11 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: a02a968f
+
+Time (s): cpu = 00:06:13 ; elapsed = 17:19:12 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: a02a968f
+
+Time (s): cpu = 00:06:14 ; elapsed = 17:19:13 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: a02a968f
+
+Time (s): cpu = 00:06:15 ; elapsed = 17:19:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 16f1bfe11
+
+Time (s): cpu = 00:06:15 ; elapsed = 17:19:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 16f1bfe11
+
+Time (s): cpu = 00:06:16 ; elapsed = 17:19:15 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Ending Placer Task | Checksum: 1375b669b
+
+Time (s): cpu = 00:06:16 ; elapsed = 17:19:15 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+94 Infos, 52 Warnings, 2 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:06:29 ; elapsed = 17:19:24 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.138 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.303 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 4b3fe777 ConstDB: 0 ShapeSum: ec1b7f24 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: f1908d25
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: f1908d25
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:25 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: f1908d25
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: f1908d25
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 2868.344 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1852ea09d
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:55 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.199  | TNS=0.000  | WHS=-0.409 | THS=-1894.501|
+
+Phase 2 Router Initialization | Checksum: 1ebdf64af
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:01:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 14011b575
+
+Time (s): cpu = 00:02:10 ; elapsed = 00:01:44 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 10887
+ Number of Nodes with overlaps = 817
+ Number of Nodes with overlaps = 127
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1249335f3
+
+Time (s): cpu = 00:02:59 ; elapsed = 00:02:28 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.401  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1c1e3c687
+
+Time (s): cpu = 00:03:00 ; elapsed = 00:02:29 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 1d0efde7f
+
+Time (s): cpu = 00:03:02 ; elapsed = 00:02:32 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.401  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 13e694555
+
+Time (s): cpu = 00:03:03 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 13e694555
+
+Time (s): cpu = 00:03:03 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 13e694555
+
+Time (s): cpu = 00:03:03 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 13e694555
+
+Time (s): cpu = 00:03:04 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 13e694555
+
+Time (s): cpu = 00:03:04 ; elapsed = 00:02:34 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 124df6373
+
+Time (s): cpu = 00:03:08 ; elapsed = 00:02:38 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.401  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 18a02f578
+
+Time (s): cpu = 00:03:08 ; elapsed = 00:02:38 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 18a02f578
+
+Time (s): cpu = 00:03:08 ; elapsed = 00:02:38 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 5.35778 %
+  Global Horizontal Routing Utilization  = 6.56003 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: e4457fb3
+
+Time (s): cpu = 00:03:09 ; elapsed = 00:02:39 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: e4457fb3
+
+Time (s): cpu = 00:03:09 ; elapsed = 00:02:39 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 9 Depositing Routes
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt0_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y0/GTREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt1_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y1/GTREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt2_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y2/GTREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt3_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y3/GTREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt4_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y4/GTNORTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt5_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y5/GTNORTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt6_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y6/GTNORTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt7_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y7/GTNORTHREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_gt_common_i/jesd204_0_common/gtxe2_common_i/GTREFCLK0 to physical pin GTXE2_COMMON_X0Y0/GTREFCLK1
+INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_gt_common_i/jesd204_1_common/gtxe2_common_i/GTREFCLK0 to physical pin GTXE2_COMMON_X0Y1/GTNORTHREFCLK1
+Phase 9 Depositing Routes | Checksum: d99f98ae
+
+Time (s): cpu = 00:03:12 ; elapsed = 00:02:44 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=2.401  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: d99f98ae
+
+Time (s): cpu = 00:03:13 ; elapsed = 00:02:45 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:03:16 ; elapsed = 00:02:48 . Memory (MB): peak = 2868.344 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+118 Infos, 52 Warnings, 2 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:03:27 ; elapsed = 00:03:01 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:26 ; elapsed = 00:00:15 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_methodology_drc_routed.rpt.
+report_methodology: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2868.344 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_timing_summary: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Command: report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+128 Infos, 53 Warnings, 2 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_clock_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Command: write_bitstream -force -no_partial_bitfile top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/dds_freq_hop_1024kHz_reg input u_dds_for_7_series_iq/dds_freq_hop_1024kHz_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/dds_freq_imd_1024kHz_reg input u_dds_for_7_series_iq/dds_freq_imd_1024kHz_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/dds_freq_max_reg input u_dds_for_7_series_iq/dds_freq_max_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/dds_freq_min_reg input u_dds_for_7_series_iq/dds_freq_min_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/dds_freq_setup_39bit_reg input u_dds_for_7_series_iq/dds_freq_setup_39bit_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[13].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[13].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[14].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[14].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[15].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[15].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[16].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[16].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[17].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[17].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[18].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[18].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[19].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[19].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[1].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[1].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[20].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[20].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[21].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[21].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[22].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[22].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[23].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[23].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[24].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[24].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[25].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[25].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[26].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[26].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[27].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[27].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[28].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[28].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[29].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[29].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[2].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[2].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[30].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[30].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[31].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[31].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[3].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[3].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[4].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[4].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[5].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[5].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[6].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[6].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[7].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[7].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[8].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[8].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_dds_for_7_series_iq/u_value_att_round[9].dac_value_att_round/value_multip_result0 input u_dds_for_7_series_iq/u_value_att_round[9].dac_value_att_round/value_multip_result0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_triangle_wave/scaled_output input u_triangle_wave/scaled_output/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP u_triangle_wave/scaled_output input u_triangle_wave/scaled_output/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[0].dac_value_att_round/value_multip_result0/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[10].dac_value_att_round/value_multip_result0/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[11].dac_value_att_round/value_multip_result0/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[10] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[11] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[12] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[13] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[14] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+WARNING: [DRC 23-20] Rule violation (DPIR-1) Asynchronous driver check - DSP u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0 input pin u_dds_for_7_series_iq/u_value_att_round[12].dac_value_att_round/value_multip_result0/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+INFO: [Common 17-14] Message 'DRC 23-20' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 563 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+135 Infos, 153 Warnings, 2 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 3472.605 ; gain = 604.262
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file top.hwdef
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 04 15:15:03 2025...

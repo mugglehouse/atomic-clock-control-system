@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../dac.srcs/sources_1/ip/vio_dac_vc_dds/sim/vio_dac_vc_dds.v" --include "../../../../dac.srcs/sources_1/ip/vio_dac_vc_dds/hdl/verilog" --include "../../../../dac.srcs/sources_1/ip/vio_dac_vc_dds/hdl"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

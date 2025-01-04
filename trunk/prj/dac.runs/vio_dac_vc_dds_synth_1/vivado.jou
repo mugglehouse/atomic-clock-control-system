@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Oct 22 14:54:28 2024
+# Process ID: 19084
+# Current directory: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/vio_dac_vc_dds_synth_1
+# Command line: vivado.exe -log vio_dac_vc_dds.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vio_dac_vc_dds.tcl
+# Log file: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/vio_dac_vc_dds_synth_1/vio_dac_vc_dds.vds
+# Journal file: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/vio_dac_vc_dds_synth_1\vivado.jou
+#-----------------------------------------------------------
+source vio_dac_vc_dds.tcl -notrace

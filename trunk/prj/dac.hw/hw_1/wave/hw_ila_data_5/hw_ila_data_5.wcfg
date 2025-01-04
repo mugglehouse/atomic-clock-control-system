@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.hw/hw_1/wave/hw_ila_data_5/hw_ila_data_5.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3833814fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="165"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="81" />
+   <wvobject fp_name="iob_ad9172_rst_n_OBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">iob_ad9172_rst_n_OBUF</obj_property>
+      <obj_property name="ObjectShortName">iob_ad9172_rst_n_OBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/RD_PROD_ID" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/RD_PROD_ID[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_PROD_ID[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/bad_disp_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/bad_disp_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bad_disp_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/boot_loader_pass" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/boot_loader_pass</obj_property>
+      <obj_property name="ObjectShortName">boot_loader_pass</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/cgs_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/cgs_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cgs_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/checksum_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/checksum_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">checksum_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ddsm_ftw_load_ack" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ddsm_ftw_load_ack</obj_property>
+      <obj_property name="ObjectShortName">ddsm_ftw_load_ack</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/dll_lock" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/dll_lock</obj_property>
+      <obj_property name="ObjectShortName">dll_lock</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/dyn_link_latency0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/dyn_link_latency0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dyn_link_latency0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/dyn_link_latency1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/dyn_link_latency1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dyn_link_latency1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane3" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane4" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane5" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane6" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane6[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane7" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/ecount_lane7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ecount_lane7[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/f_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/f_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/frame_sync_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/frame_sync_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_sync_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/hd_cf_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/hd_cf_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hd_cf_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/irq_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/irq_status[8:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_status[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/k_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/k_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_deskew_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_deskew_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane_deskew_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_fifo_empty" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_fifo_empty[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane_fifo_empty[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_fifo_full" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_fifo_full[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane_fifo_full[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_sync_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lane_sync_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lane_sync_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane3" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane4" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane5" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane6" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane6[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane7" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/link_status_lane7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">link_status_lane7[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lmfc_period_in_pclk" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/lmfc_period_in_pclk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lmfc_period_in_pclk[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/m_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/m_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/mode_not_compatiable" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/mode_not_compatiable</obj_property>
+      <obj_property name="ObjectShortName">mode_not_compatiable</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/n_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/n_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">n_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/nit_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/nit_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nit_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/np_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/np_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">np_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/pll_lock" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/pll_lock</obj_property>
+      <obj_property name="ObjectShortName">pll_lock</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/r_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/r_data_v" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/r_data_v</obj_property>
+      <obj_property name="ObjectShortName">r_data_v</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/rb_n_negedge" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/rb_n_negedge</obj_property>
+      <obj_property name="ObjectShortName">rb_n_negedge</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/rb_n_spi" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/rb_n_spi</obj_property>
+      <obj_property name="ObjectShortName">rb_n_spi</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/re" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/re</obj_property>
+      <obj_property name="ObjectShortName">re</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/s_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/s_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/scr_l_para_rd" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/scr_l_para_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">scr_l_para_rd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_cali_pass" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_cali_pass</obj_property>
+      <obj_property name="ObjectShortName">serdes_pll_cali_pass</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_lock" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_lock</obj_property>
+      <obj_property name="ObjectShortName">serdes_pll_lock</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_ovf" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_ovf</obj_property>
+      <obj_property name="ObjectShortName">serdes_pll_ovf</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_udf" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/serdes_pll_udf</obj_property>
+      <obj_property name="ObjectShortName">serdes_pll_udf</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/state[11:0]</obj_property>
+      <obj_property name="ObjectShortName">state[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/sync_lmfc_delay" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/sync_lmfc_delay[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_lmfc_delay[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/sysref_count" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/sysref_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sysref_count[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/sysref_phase" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/sysref_phase[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sysref_phase[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/uek_status" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/uek_status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uek_status[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/w_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_initial_dac/we" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_initial_dac/we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_spi_dac/addr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_spi_dac/addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_spi_dac/chip_sel" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_spi_dac/chip_sel</obj_property>
+      <obj_property name="ObjectShortName">chip_sel</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_spi_dac/sda_out" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_spi_dac/sda_out</obj_property>
+      <obj_property name="ObjectShortName">sda_out</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_spi_dac/state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_spi_dac/state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_dac_cfg_module/u_spi_dac/tri_iob" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_dac_cfg_module/u_spi_dac/tri_iob</obj_property>
+      <obj_property name="ObjectShortName">tri_iob</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/PLL2_DLD_STATUS" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/PLL2_DLD_STATUS</obj_property>
+      <obj_property name="ObjectShortName">PLL2_DLD_STATUS</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/addr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/enable_cfg_d2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/enable_cfg_d2</obj_property>
+      <obj_property name="ObjectShortName">enable_cfg_d2</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/id_device_type" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/id_device_type[7:0]</obj_property>
+      <obj_property name="ObjectShortName">id_device_type[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/r_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/r_data_v" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/r_data_v</obj_property>
+      <obj_property name="ObjectShortName">r_data_v</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/re" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/re</obj_property>
+      <obj_property name="ObjectShortName">re</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/state[11:0]</obj_property>
+      <obj_property name="ObjectShortName">state[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/w_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/we" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_initial_lmk/we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_spi/r_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_spi/r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_spi/r_data_v" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_spi/r_data_v</obj_property>
+      <obj_property name="ObjectShortName">r_data_v</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_spi/sda_in" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_spi/sda_in</obj_property>
+      <obj_property name="ObjectShortName">sda_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ad9172_inf/u_lmk_cfg_module/u_spi/state" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ad9172_inf/u_lmk_cfg_module/u_spi/state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_4_initial_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_4_initial_done</obj_property>
+      <obj_property name="ObjectShortName">u_ila_4_initial_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_4_rst" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_4_rst</obj_property>
+      <obj_property name="ObjectShortName">u_ila_4_rst</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>
