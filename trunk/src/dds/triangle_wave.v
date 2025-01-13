@@ -2,7 +2,7 @@ module triangle_wave (
     input wire clk,              // 系统时钟
     input wire rst_n,            // 低电平有效复位信号
     input wire [31:0] DDS_VC_FREQ_VIO,       // 输出频率
-    input wire [9:0] pcw,        // 相位控制字
+    input wire [9:0] DDS_VC_PCW_VIO,        // 相位控制字
     input wire [15:0] DDS_VC_AMP_VIO,     // 幅度控制（0-65535）, //幅度控制字
     input wire [15:0] DDS_VC_DC_OFFSET_VIO,     // 直流偏置
     output reg [15:0] dds_triangle, // 
@@ -28,7 +28,7 @@ always @(posedge clk or negedge rst_n) begin
 end
 
 // 2. 计算ROM地址（pcw）
-assign rom_addr = phase_acc[31:22] + pcw;
+assign rom_addr = phase_acc[31:22] + DDS_VC_PCW_VIO;
 
 // 3. 实例化ROM IP核
 blk_mem_gen_0 u_blk_mem_gen_0 (

@@ -50,7 +50,6 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.cache/wt [current_project]
@@ -69,8 +68,8 @@ set rc [catch {
   set_property netlist_only true [get_files d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.dcp]
   add_files -quiet d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp
   set_property netlist_only true [get_files d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp]
-  add_files -quiet d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp
-  set_property netlist_only true [get_files d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp]
+  add_files -quiet D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp
+  set_property netlist_only true [get_files D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp]
   read_xdc -mode out_of_context -ref vio_2 d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2_ooc.xdc
   set_property processing_order EARLY [get_files d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2_ooc.xdc]
   read_xdc -ref vio_2 d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.xdc

@@ -2,48 +2,48 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
 # IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
-# Start of session at: Tue Oct 22 14:54:28 2024
-# Process ID: 19084
+# Start of session at: Mon Jan 13 09:52:57 2025
+# Process ID: 304
 # Current directory: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/vio_dac_vc_dds_synth_1
 # Command line: vivado.exe -log vio_dac_vc_dds.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vio_dac_vc_dds.tcl
 # Log file: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/vio_dac_vc_dds_synth_1/vio_dac_vc_dds.vds
 # Journal file: D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/vio_dac_vc_dds_synth_1\vivado.jou
 #-----------------------------------------------------------
 source vio_dac_vc_dds.tcl -notrace
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 374.813 ; gain = 165.133
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 381.797 ; gain = 171.402
 INFO: [Synth 8-638] synthesizing module 'vio_dac_vc_dds' [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/synth/vio_dac_vc_dds.v:59]
 INFO: [Synth 8-256] done synthesizing module 'vio_dac_vc_dds' (7#1) [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/synth/vio_dac_vc_dds.v:59]
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 492.969 ; gain = 283.289
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 492.969 ; gain = 283.289
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 500.793 ; gain = 290.398
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 500.793 ; gain = 290.398
 INFO: [Device 21-403] Loading part xc7k325tfbg676-1
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 756.492 ; gain = 0.016
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:41 . Memory (MB): peak = 756.492 ; gain = 546.813
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:41 . Memory (MB): peak = 756.492 ; gain = 546.813
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 764.336 ; gain = 0.016
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:31 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:32 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
 
 Report Cell Usage: 
 +------+-----+------+
 |      |Cell |Count |
 +------+-----+------+
 |1     |LUT1 |     1|
-|2     |LUT2 |     3|
-|3     |LUT3 |    44|
-|4     |LUT4 |    12|
-|5     |LUT5 |    26|
-|6     |LUT6 |    31|
-|7     |FDRE |   260|
+|2     |LUT2 |     5|
+|3     |LUT3 |    47|
+|4     |LUT4 |    13|
+|5     |LUT5 |    15|
+|6     |LUT6 |    40|
+|7     |FDRE |   281|
 |8     |FDSE |     7|
 +------+-----+------+
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:41 . Memory (MB): peak = 756.492 ; gain = 546.813
-synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:35 . Memory (MB): peak = 756.492 ; gain = 471.203
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:40 . Memory (MB): peak = 764.336 ; gain = 553.941
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:35 . Memory (MB): peak = 764.336 ; gain = 472.078

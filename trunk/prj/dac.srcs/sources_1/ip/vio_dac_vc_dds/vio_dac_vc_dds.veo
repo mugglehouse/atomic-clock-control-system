@@ -1,4 +1,4 @@
-// (c) Copyright 1995-2024 Xilinx, Inc. All rights reserved.
+// (c) Copyright 1995-2025 Xilinx, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
 // of Xilinx, Inc. and is protected under U.S. and
@@ -58,7 +58,8 @@ vio_dac_vc_dds your_instance_name (
   .clk(clk),                // input wire clk
   .probe_out0(probe_out0),  // output wire [31 : 0] probe_out0
   .probe_out1(probe_out1),  // output wire [15 : 0] probe_out1
-  .probe_out2(probe_out2)  // output wire [15 : 0] probe_out2
+  .probe_out2(probe_out2),  // output wire [15 : 0] probe_out2
+  .probe_out3(probe_out3)  // output wire [9 : 0] probe_out3
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
 

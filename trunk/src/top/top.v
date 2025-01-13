@@ -96,6 +96,7 @@ wire         [9:0]  DDS_ATT_0p1dB_VIO                       ;
 wire [31:0] DDS_VC_FREQ_VIO;
 wire [15:0] DDS_VC_AMP_VIO;
 wire [15:0] DDS_VC_DC_OFFSET_VIO;
+wire [9:0] DDS_VC_PCW_VIO;
 
 (* MARK_DEBUG = "true" *)
 wire [15:0]         i0, i1, i2, i3, 
@@ -241,14 +242,15 @@ ad_inf                    u_ad_inf(
   .clk(clk_50m_bufg),              
   .probe_out0(DDS_VC_FREQ_VIO),  // 三角波频率
   .probe_out1(DDS_VC_AMP_VIO),  // 三角波幅度
-  .probe_out2(DDS_VC_DC_OFFSET_VIO)  // 配置驱动电路1.65mA
+  .probe_out2(DDS_VC_DC_OFFSET_VIO),  // 配置驱动电路1.65mA
+  .probe_out3(DDS_VC_PCW_VIO)  // output wire [9 : 0] probe_out3
 );
 
  triangle_wave u_triangle_wave (
   .clk(clk_50m_bufg),
   .rst_n(1),
   .DDS_VC_FREQ_VIO(DDS_VC_FREQ_VIO), // 32'd429,  5hz
-  .pcw(10'd0),
+  .DDS_VC_PCW_VIO(DDS_VC_PCW_VIO),
   .DDS_VC_AMP_VIO(DDS_VC_AMP_VIO), // 16'd1515,0.2mA
   .DDS_VC_DC_OFFSET_VIO(DDS_VC_DC_OFFSET_VIO),// 16'd12500, 1.65mA
   .dds_triangle(dds_triangle), // 三角波

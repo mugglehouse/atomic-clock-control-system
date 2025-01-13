@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
-| Date             : Sat Jan 11 16:31:57 2025
+| Date             : Mon Jan 13 10:17:07 2025
 | Host             : LAPTOP-3JN8PSQD running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -31,7 +31,7 @@ Table of Contents
 
 +--------------------------+--------+
 | Total On-Chip Power (W)  | 3.169  |
-| Dynamic (W)              | 2.955  |
+| Dynamic (W)              | 2.954  |
 | Device Static (W)        | 0.215  |
 | Total Off-Chip Power (W) | 0.023  |
 | Effective TJA (C/W)      | 1.9    |
@@ -50,17 +50,17 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.168 |       15 |       --- |             --- |
-| Slice Logic              |     0.092 |   110296 |       --- |             --- |
-|   LUT as Logic           |     0.066 |    34469 |    203800 |           16.91 |
-|   Register               |     0.011 |    51776 |    407600 |           12.70 |
+| Clocks                   |     0.169 |       15 |       --- |             --- |
+| Slice Logic              |     0.092 |   110331 |       --- |             --- |
+|   LUT as Logic           |     0.066 |    34484 |    203800 |           16.92 |
+|   Register               |     0.011 |    51797 |    407600 |           12.71 |
 |   LUT as Shift Register  |     0.007 |     4524 |     64000 |            7.07 |
 |   CARRY4                 |     0.007 |     2466 |     50950 |            4.84 |
 |   F7/F8 Muxes            |    <0.001 |     3371 |    203800 |            1.65 |
 |   LUT as Distributed RAM |    <0.001 |       24 |     64000 |            0.04 |
 |   Others                 |     0.000 |     6154 |       --- |             --- |
 |   BUFG                   |     0.000 |        2 |        32 |            6.25 |
-| Signals                  |     0.184 |    76568 |       --- |             --- |
+| Signals                  |     0.184 |    76603 |       --- |             --- |
 | Block RAM                |     0.945 |      315 |       445 |           70.79 |
 | MMCM                     |     0.106 |        1 |        10 |           10.00 |
 | DSPs                     |     0.038 |       39 |       840 |            4.64 |
@@ -77,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     1.576 |       1.480 |      0.096 |
+| Vccint    |       1.000 |     1.575 |       1.479 |      0.096 |
 | Vccaux    |       1.800 |     0.113 |       0.084 |      0.029 |
 | Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -158,7 +158,7 @@ Table of Contents
 +------------------------------------------------------------------------------------------+-----------+
 | Name                                                                                     | Power (W) |
 +------------------------------------------------------------------------------------------+-----------+
-| top                                                                                      |     2.955 |
+| top                                                                                      |     2.954 |
 |   dbg_hub                                                                                |     0.002 |
 |     inst                                                                                 |     0.002 |
 |       CORE_XSDB.UUT_MASTER                                                               |     0.002 |
@@ -334,9 +334,9 @@ Table of Contents
 |       u_ctrl_smp                                                                         |    <0.001 |
 |     u_iob_module                                                                         |     0.290 |
 |   u_ad_inf                                                                               |     0.057 |
-|     u_adc_cfg_module                                                                     |     0.001 |
+|     u_adc_cfg_module                                                                     |     0.002 |
 |       u_initial_adc                                                                      |    <0.001 |
-|       u_spi_adc                                                                          |    <0.001 |
+|       u_spi_adc                                                                          |     0.001 |
 |         IOBUF_sda                                                                        |    <0.001 |
 |     u_adc_sample_interface                                                               |     0.033 |
 |       u_ctrl_module                                                                      |    <0.001 |
@@ -346,17 +346,40 @@ Table of Contents
 |     u_clk_wiz_sysclk                                                                     |     0.107 |
 |       inst                                                                               |     0.107 |
 |   u_dds_for_7_series_iq                                                                  |     1.269 |
-|     u_dds0_16chl                                                                         |     0.578 |
-|       dds_16chl_struct                                                                   |     0.578 |
-|         sg_parallel_dds2                                                                 |     0.577 |
+|     u_dds0_16chl                                                                         |     0.581 |
+|       dds_16chl_struct                                                                   |     0.581 |
+|         sg_parallel_dds2                                                                 |     0.579 |
 |           data_cvrt                                                                      |     0.002 |
 |             latency_test.reg1                                                            |     0.002 |
 |               has_only_1.srlc33e_array0                                                  |     0.002 |
-|           dds0                                                                           |     0.034 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
-|               U0                                                                         |     0.034 |
-|                 i_synth                                                                  |     0.034 |
-|                   i_dds                                                                  |     0.034 |
+|           dds0                                                                           |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
+|                   i_dds                                                                  |     0.035 |
+|                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
+|                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
+|                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
+|                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
+|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
+|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.034 |
+|                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
+|                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
+|           dds1                                                                           |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
+|                   i_dds                                                                  |     0.035 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
@@ -375,41 +398,18 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds1                                                                           |     0.034 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
-|               U0                                                                         |     0.034 |
-|                 i_synth                                                                  |     0.034 |
-|                   i_dds                                                                  |     0.034 |
+|           dds10                                                                          |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
+|                   i_dds                                                                  |     0.035 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.032 |
-|                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
-|                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds10                                                                          |     0.034 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
-|               U0                                                                         |     0.034 |
-|                 i_synth                                                                  |     0.034 |
-|                   i_dds                                                                  |     0.034 |
-|                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
-|                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
-|                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
-|                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
-|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
-|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.034 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -444,11 +444,11 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds12                                                                          |     0.035 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
-|               U0                                                                         |     0.035 |
-|                 i_synth                                                                  |     0.035 |
-|                   i_dds                                                                  |     0.035 |
+|           dds12                                                                          |     0.034 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
+|               U0                                                                         |     0.034 |
+|                 i_synth                                                                  |     0.034 |
+|                   i_dds                                                                  |     0.034 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
@@ -522,7 +522,7 @@ Table of Contents
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
-|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
+|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |     0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
 |                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
@@ -605,10 +605,10 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds5                                                                           |     0.036 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.036 |
-|               U0                                                                         |     0.036 |
-|                 i_synth                                                                  |     0.036 |
+|           dds5                                                                           |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
 |                   i_dds                                                                  |     0.035 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
@@ -651,18 +651,18 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds7                                                                           |     0.036 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.036 |
-|               U0                                                                         |     0.036 |
-|                 i_synth                                                                  |     0.036 |
-|                   i_dds                                                                  |     0.036 |
+|           dds7                                                                           |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
+|                   i_dds                                                                  |     0.035 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |     0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.034 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -697,18 +697,18 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds9                                                                           |     0.033 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.033 |
-|               U0                                                                         |     0.033 |
-|                 i_synth                                                                  |     0.033 |
-|                   i_dds                                                                  |     0.033 |
+|           dds9                                                                           |     0.034 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
+|               U0                                                                         |     0.034 |
+|                 i_synth                                                                  |     0.034 |
+|                   i_dds                                                                  |     0.034 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.032 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -1130,18 +1130,18 @@ Table of Contents
 |           rst_regsiter9                                                                  |    <0.001 |
 |             synth_reg_inst                                                               |    <0.001 |
 |               has_latency.fd_array[1].reg_comp_1                                         |    <0.001 |
-|         shift                                                                            |     0.001 |
-|     u_dds1_16chl                                                                         |     0.593 |
-|       dds_16chl_struct                                                                   |     0.593 |
-|         sg_parallel_dds2                                                                 |     0.589 |
+|         shift                                                                            |     0.002 |
+|     u_dds1_16chl                                                                         |     0.590 |
+|       dds_16chl_struct                                                                   |     0.590 |
+|         sg_parallel_dds2                                                                 |     0.586 |
 |           data_cvrt                                                                      |     0.004 |
 |             latency_test.reg1                                                            |     0.004 |
 |               has_only_1.srlc33e_array0                                                  |     0.004 |
-|           dds0                                                                           |     0.034 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
-|               U0                                                                         |     0.034 |
-|                 i_synth                                                                  |     0.034 |
-|                   i_dds                                                                  |     0.034 |
+|           dds0                                                                           |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
+|                   i_dds                                                                  |     0.035 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
@@ -1183,7 +1183,30 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds10                                                                          |     0.035 |
+|           dds10                                                                          |     0.036 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.036 |
+|               U0                                                                         |     0.036 |
+|                 i_synth                                                                  |     0.036 |
+|                   i_dds                                                                  |     0.036 |
+|                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
+|                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
+|                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
+|                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
+|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
+|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.035 |
+|                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ls                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
+|                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
+|                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
+|           dds11                                                                          |     0.035 |
 |             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
 |               U0                                                                         |     0.035 |
 |                 i_synth                                                                  |     0.035 |
@@ -1206,7 +1229,7 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds11                                                                          |     0.034 |
+|           dds12                                                                          |     0.034 |
 |             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
 |               U0                                                                         |     0.034 |
 |                 i_synth                                                                  |     0.034 |
@@ -1218,29 +1241,6 @@ Table of Contents
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
 |                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
-|                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_sin_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_cos_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ls                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
-|                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
-|                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds12                                                                          |     0.036 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.036 |
-|               U0                                                                         |     0.036 |
-|                 i_synth                                                                  |     0.036 |
-|                   i_dds                                                                  |     0.036 |
-|                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
-|                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
-|                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
-|                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
-|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
-|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.034 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -1298,18 +1298,18 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds15                                                                          |     0.036 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.036 |
-|               U0                                                                         |     0.036 |
-|                 i_synth                                                                  |     0.036 |
-|                   i_dds                                                                  |     0.036 |
+|           dds15                                                                          |     0.035 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
+|               U0                                                                         |     0.035 |
+|                 i_synth                                                                  |     0.035 |
+|                   i_dds                                                                  |     0.035 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.034 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -1399,7 +1399,7 @@ Table of Contents
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
-|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |     0.001 |
+|                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
 |                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
@@ -1436,18 +1436,18 @@ Table of Contents
 |                       i_rtl.i_quarter_table.i_piped_map.i_original_sin_ms                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_a                                  |    <0.001 |
 |                       i_rtl.i_quarter_table.i_rom_reg_b                                  |    <0.001 |
-|           dds7                                                                           |     0.035 |
-|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.035 |
-|               U0                                                                         |     0.035 |
-|                 i_synth                                                                  |     0.035 |
-|                   i_dds                                                                  |     0.035 |
+|           dds7                                                                           |     0.034 |
+|             dds_16chl_dds_compiler_v6_0_i0_instance                                      |     0.034 |
+|               U0                                                                         |     0.034 |
+|                 i_synth                                                                  |     0.034 |
+|                   i_dds                                                                  |     0.034 |
 |                     I_PHASEGEN.i_conventional_accum.i_accum                              |    <0.001 |
 |                       i_common.i_stream_poff_gen.poff_channel_in                         |    <0.001 |
 |                       i_fabric.i_common.i_phase_acc                                      |    <0.001 |
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.032 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -1470,7 +1470,7 @@ Table of Contents
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.032 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -1493,7 +1493,7 @@ Table of Contents
 |                       i_fabric.i_one_channel.i_accum                                     |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_ph_adj_pipe               |    <0.001 |
 |                     I_PHASEGEN.i_conventional_accum.i_fabric.i_phase_adj.i_phase_adj_add |    <0.001 |
-|                     I_SINCOS.i_std_rom.i_rom                                             |     0.033 |
+|                     I_SINCOS.i_std_rom.i_rom                                             |     0.032 |
 |                       i_rtl.i_quarter_table.i_addr_reg_c                                 |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ls                |    <0.001 |
 |                       i_rtl.i_quarter_table.i_piped_map.i_cardinal_cos_ms                |    <0.001 |
@@ -1926,12 +1926,12 @@ Table of Contents
 |     u_value_att_round[16].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[17].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[18].dac_value_att_round                                            |     0.002 |
-|     u_value_att_round[19].dac_value_att_round                                            |     0.003 |
+|     u_value_att_round[19].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[1].dac_value_att_round                                             |     0.002 |
 |     u_value_att_round[20].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[21].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[22].dac_value_att_round                                            |     0.002 |
-|     u_value_att_round[23].dac_value_att_round                                            |     0.002 |
+|     u_value_att_round[23].dac_value_att_round                                            |     0.003 |
 |     u_value_att_round[24].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[25].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[26].dac_value_att_round                                            |     0.002 |
@@ -1939,7 +1939,7 @@ Table of Contents
 |     u_value_att_round[28].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[29].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[2].dac_value_att_round                                             |     0.002 |
-|     u_value_att_round[30].dac_value_att_round                                            |     0.003 |
+|     u_value_att_round[30].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[31].dac_value_att_round                                            |     0.002 |
 |     u_value_att_round[3].dac_value_att_round                                             |     0.003 |
 |     u_value_att_round[4].dac_value_att_round                                             |     0.002 |
@@ -2489,7 +2489,7 @@ Table of Contents
 |           asyncrounous_transfer.halt_in_transfer_inst                                    |    <0.001 |
 |           asyncrounous_transfer.halt_out_transfer_inst                                   |    <0.001 |
 |           halt_detection_inst                                                            |    <0.001 |
-|         u_trig                                                                           |     0.003 |
+|         u_trig                                                                           |     0.002 |
 |           N_DDR_TC.N_DDR_TC_INST[0].U_TC                                                 |    <0.001 |
 |             allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst                      |    <0.001 |
 |               DUT                                                                        |    <0.001 |
@@ -3278,7 +3278,7 @@ Table of Contents
 |                   u_srlB                                                                 |    <0.001 |
 |                   u_srlC                                                                 |    <0.001 |
 |                   u_srlD                                                                 |    <0.001 |
-|           U_TM                                                                           |     0.002 |
+|           U_TM                                                                           |     0.001 |
 |             N_DDR_MODE.G_NMU[0].U_M                                                      |    <0.001 |
 |               allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst                    |    <0.001 |
 |                 DUT                                                                      |    <0.001 |
@@ -5342,7 +5342,7 @@ Table of Contents
 |                     prim_noinit.ram                                                      |    <0.001 |
 |                   ramloop[3].ram.r                                                       |    <0.001 |
 |                     prim_noinit.ram                                                      |    <0.001 |
-|         u_ila_cap_ctrl                                                                   |     0.001 |
+|         u_ila_cap_ctrl                                                                   |    <0.001 |
 |           U_CDONE                                                                        |    <0.001 |
 |           U_NS0                                                                          |    <0.001 |
 |           U_NS1                                                                          |    <0.001 |
@@ -6533,7 +6533,7 @@ Table of Contents
 |                     u_srlC                                                               |    <0.001 |
 |                     u_srlD                                                               |    <0.001 |
 |         xsdb_memory_read_inst                                                            |     0.002 |
-|   u_triangle_wave                                                                        |     0.002 |
+|   u_triangle_wave                                                                        |     0.003 |
 |     u_blk_mem_gen_0                                                                      |    <0.001 |
 |       U0                                                                                 |    <0.001 |
 |         inst_blk_mem_gen                                                                 |    <0.001 |
@@ -6566,10 +6566,11 @@ Table of Contents
 |         G_PROBE_OUT[0].PROBE_OUT0_INST                                                   |    <0.001 |
 |         G_PROBE_OUT[1].PROBE_OUT0_INST                                                   |    <0.001 |
 |         G_PROBE_OUT[2].PROBE_OUT0_INST                                                   |    <0.001 |
+|         G_PROBE_OUT[3].PROBE_OUT0_INST                                                   |    <0.001 |
 |       PROBE_OUT_WIDTH_INST                                                               |    <0.001 |
 |       U_XSDB_SLAVE                                                                       |    <0.001 |
-|   u_vio_dds_1                                                                            |     0.006 |
-|     inst                                                                                 |     0.006 |
+|   u_vio_dds_1                                                                            |     0.007 |
+|     inst                                                                                 |     0.007 |
 |       DECODER_INST                                                                       |    <0.001 |
 |       PROBE_OUT_ALL_INST                                                                 |     0.006 |
 |         G_PROBE_OUT[0].PROBE_OUT0_INST                                                   |    <0.001 |

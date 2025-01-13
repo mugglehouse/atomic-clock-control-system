@@ -414,6 +414,30 @@
         <net name="DDS_VC_DC_OFFSET_VIO[0]"/>
       </nets>
     </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:1"/>
+        <Option Id="HW_VIO" value="u_vio_dac_vc_dds"/>
+        <Option Id="OUTPUT_VALUE" value=""/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="PROBE_PORT" value="3"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="10"/>
+      </probeOptions>
+      <nets>
+        <net name="DDS_VC_PCW_VIO[9]"/>
+        <net name="DDS_VC_PCW_VIO[8]"/>
+        <net name="DDS_VC_PCW_VIO[7]"/>
+        <net name="DDS_VC_PCW_VIO[6]"/>
+        <net name="DDS_VC_PCW_VIO[5]"/>
+        <net name="DDS_VC_PCW_VIO[4]"/>
+        <net name="DDS_VC_PCW_VIO[3]"/>
+        <net name="DDS_VC_PCW_VIO[2]"/>
+        <net name="DDS_VC_PCW_VIO[1]"/>
+        <net name="DDS_VC_PCW_VIO[0]"/>
+      </nets>
+    </probe>
     <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
