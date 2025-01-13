@@ -12,9 +12,15 @@ set_property IOSTANDARD LVDS [get_ports iob_adc_fcoclk_*]
 create_clock -period 100.000 -name ad_clk [get_ports iob_adc_fcoclk_p]
 
 ##--------adc ports-------------------------
-set_property PACKAGE_PIN AB17  [get_ports {iob_adc_data0_in_p[0]}]
-set_property PACKAGE_PIN AC19  [get_ports {iob_adc_data0_in_p[1]}]
-set_property IOSTANDARD LVDS [get_ports iob_adc_data0_in_*]
+# AD9633测试接口
+# set_property PACKAGE_PIN AB17  [get_ports {iob_adc_data0_in_p[0]}]
+# set_property PACKAGE_PIN AC19  [get_ports {iob_adc_data0_in_p[1]}]
+
+# PD输出接口
+set_property PACKAGE_PIN AE17  [get_ports {iob_adc_data1_in_p[0]}]
+set_property PACKAGE_PIN V16  [get_ports {iob_adc_data1_in_p[1]}]
+
+set_property IOSTANDARD LVDS [get_ports iob_adc_data1_in_*]
 
 set_property PACKAGE_PIN AF18 [get_ports iob_adc_spi_clk]
 set_property PACKAGE_PIN AE18 [get_ports iob_adc_spi_csb]

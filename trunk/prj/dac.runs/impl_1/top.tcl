@@ -50,6 +50,7 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param xicom.use_bs_reader 1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.cache/wt [current_project]

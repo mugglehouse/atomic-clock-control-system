@@ -25,33 +25,33 @@ INFO: [Project 1-479] Netlist was created with Vivado 2016.4
 INFO: [Device 21-403] Loading part xc7k325tfbg676-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/clk_user_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21408]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[0]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21509]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[10]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21579]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[11]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21586]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[12]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21593]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[13]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21600]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[14]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21607]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[15]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21614]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[1]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21516]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[2]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21523]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[3]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21530]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[4]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21537]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[5]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21544]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[6]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21551]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[7]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21558]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[8]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21565]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[9]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21572]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_refclk_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21420]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad_inf/clk_10m_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_5/ad_inf.edf:11520]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/clk_user_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21408]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[0]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21509]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[10]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21579]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[11]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21586]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[12]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21593]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[13]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21600]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[14]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21607]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[15]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21614]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[1]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21516]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[2]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21523]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[3]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21530]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[4]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21537]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[5]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21544]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[6]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21551]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[7]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21558]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[8]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21565]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_data[9]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21572]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad9783_inf/dac1_refclk_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_4/ad9783_inf.edf:21420]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'u_ad_inf/clk_10m_bufg' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_5/ad_inf.edf:11520]
 Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.xdc] for cell 'u_vio_2'
 Finished Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.xdc] for cell 'u_vio_2'
 Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.xdc] for cell 'u_vio_dds_1'
 Finished Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.xdc] for cell 'u_vio_dds_1'
 Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.xdc] for cell 'u_vio_dac_vc_dds'
 Finished Parsing XDC File [d:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.xdc] for cell 'u_vio_dac_vc_dds'
-Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_early.xdc] for cell 'u_ad9172_inf'
-Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_early.xdc] for cell 'u_ad9172_inf'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_early.xdc] for cell 'u_ad9172_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_early.xdc] for cell 'u_ad9172_inf'
 Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]
 Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/common.xdc]
 Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/debug.xdc]
@@ -100,21 +100,21 @@ Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc
 Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc]
 INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc:1]
 INFO: [Timing 38-2] Deriving generated clocks [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc:1]
-get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1313.445 ; gain = 609.355
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1312.914 ; gain = 609.074
 Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/xdc/timing.xdc]
 INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_2/vio_2.dcp'
 INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/ip/vio_dds_1/vio_dds_1.dcp'
 INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp'
 INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.srcs/sources_1/ip/vio_dac_vc_dds/vio_dac_vc_dds.dcp'
-Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_late.xdc] for cell 'u_ad9172_inf'
-Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-41104-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_late.xdc] for cell 'u_ad9172_inf'
+Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_late.xdc] for cell 'u_ad9172_inf'
+Finished Parsing XDC File [D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/.Xil/Vivado-16360-LAPTOP-3JN8PSQD/dcp_3/ad9172_inf_late.xdc] for cell 'u_ad9172_inf'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 22 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 3 instances
   OBUFDS => OBUFDS: 19 instances
 
-link_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 1313.445 ; gain = 1065.746
+link_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 1312.914 ; gain = 1065.258
 INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
@@ -126,7 +126,7 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1313.445 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1312.914 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
@@ -149,47 +149,47 @@ INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_4_CV.
 INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "8086a781c87f1ff0".
 INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_5_CV.
 INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "e4bcdf78378aa0c2".
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1590.164 ; gain = 0.000
-Phase 1 Generate And Synthesize Debug Cores | Checksum: abc6c283
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.988 . Memory (MB): peak = 1591.535 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1356b4a6c
 
-Time (s): cpu = 00:00:26 ; elapsed = 00:04:43 . Memory (MB): peak = 1590.164 ; gain = 266.844
-Implement Debug Cores | Checksum: 123247f14
+Time (s): cpu = 00:00:21 ; elapsed = 00:04:33 . Memory (MB): peak = 1591.535 ; gain = 267.059
+Implement Debug Cores | Checksum: 1acc906fd
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 2 Retarget
 INFO: [Opt 31-138] Pushed 2 inverter(s) to 124 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 2 Retarget | Checksum: 22f478a77
+Phase 2 Retarget | Checksum: 262d79a95
 
-Time (s): cpu = 00:00:39 ; elapsed = 00:05:05 . Memory (MB): peak = 1792.070 ; gain = 468.750
+Time (s): cpu = 00:00:35 ; elapsed = 00:04:51 . Memory (MB): peak = 1793.480 ; gain = 469.004
 
 Phase 3 Constant propagation
 INFO: [Opt 31-138] Pushed 3 inverter(s) to 3 load pin(s).
 INFO: [Opt 31-10] Eliminated 6094 cells.
-Phase 3 Constant propagation | Checksum: 1b38a73a9
+Phase 3 Constant propagation | Checksum: 175c21381
 
-Time (s): cpu = 00:00:51 ; elapsed = 00:05:30 . Memory (MB): peak = 1792.070 ; gain = 468.750
+Time (s): cpu = 00:00:49 ; elapsed = 00:05:11 . Memory (MB): peak = 1793.480 ; gain = 469.004
 
 Phase 4 Sweep
 INFO: [Opt 31-12] Eliminated 14308 unconnected nets.
 INFO: [Opt 31-11] Eliminated 6031 unconnected cells.
-Phase 4 Sweep | Checksum: 1ef5366d4
+Phase 4 Sweep | Checksum: 1812cb522
 
-Time (s): cpu = 00:01:16 ; elapsed = 00:06:13 . Memory (MB): peak = 1792.070 ; gain = 468.750
+Time (s): cpu = 00:01:14 ; elapsed = 00:05:44 . Memory (MB): peak = 1793.480 ; gain = 469.004
 
 Phase 5 BUFG optimization
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
-Phase 5 BUFG optimization | Checksum: 2a006a786
+Phase 5 BUFG optimization | Checksum: 176531af7
 
-Time (s): cpu = 00:01:24 ; elapsed = 00:06:24 . Memory (MB): peak = 1792.070 ; gain = 468.750
+Time (s): cpu = 00:01:21 ; elapsed = 00:05:54 . Memory (MB): peak = 1793.480 ; gain = 469.004
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.250 . Memory (MB): peak = 1792.070 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 2a006a786
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.265 . Memory (MB): peak = 1793.480 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 176531af7
 
-Time (s): cpu = 00:01:25 ; elapsed = 00:06:25 . Memory (MB): peak = 1792.070 ; gain = 468.750
+Time (s): cpu = 00:01:22 ; elapsed = 00:05:55 . Memory (MB): peak = 1793.480 ; gain = 469.004
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -205,26 +205,26 @@ Starting PowerOpt Patch Enables Task
 INFO: [Pwropt 34-162] WRITE_MODE attribute of 69 BRAM(s) out of a total of 334 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 39 newly gated: 0 Total Ports: 668
-Ending PowerOpt Patch Enables Task | Checksum: 1bfce6b80
+Ending PowerOpt Patch Enables Task | Checksum: 1370d833a
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.395 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 1bfce6b80
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.452 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1370d833a
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:41 . Memory (MB): peak = 2868.344 ; gain = 1076.273
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:41 . Memory (MB): peak = 2871.191 ; gain = 1077.711
 INFO: [Common 17-83] Releasing license: Implementation
 76 Infos, 52 Warnings, 2 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:02:19 ; elapsed = 00:07:12 . Memory (MB): peak = 2868.344 ; gain = 1554.898
+opt_design: Time (s): cpu = 00:02:11 ; elapsed = 00:06:41 . Memory (MB): peak = 2871.191 ; gain = 1558.277
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.157 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_drc_opted.rpt.
-report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Chipscope 16-240] Debug cores have already been implemented
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
@@ -241,84 +241,84 @@ Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.297 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.329 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: fd81fb89
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 6e6897c6
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:49 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 1.2 Build Placer Netlist Model
-Phase 1.2 Build Placer Netlist Model | Checksum: 19ad7b09e
+Phase 1.2 Build Placer Netlist Model | Checksum: bcf09163
 
-Time (s): cpu = 00:04:19 ; elapsed = 17:16:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:04:07 ; elapsed = 00:03:28 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 1.3 Constrain Clocks/Macros
-Phase 1.3 Constrain Clocks/Macros | Checksum: 19ad7b09e
+Phase 1.3 Constrain Clocks/Macros | Checksum: bcf09163
 
-Time (s): cpu = 00:04:19 ; elapsed = 17:16:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 19ad7b09e
+Time (s): cpu = 00:04:07 ; elapsed = 00:03:28 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: bcf09163
 
-Time (s): cpu = 00:04:20 ; elapsed = 17:16:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:04:08 ; elapsed = 00:03:29 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 234cbf2ce
+Phase 2 Global Placement | Checksum: 13d6c2363
 
-Time (s): cpu = 00:05:21 ; elapsed = 17:17:47 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:01 ; elapsed = 00:04:29 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 234cbf2ce
+Phase 3.1 Commit Multi Column Macros | Checksum: 13d6c2363
 
-Time (s): cpu = 00:05:21 ; elapsed = 17:17:47 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:02 ; elapsed = 00:04:30 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 176bde912
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 142d3d95a
 
-Time (s): cpu = 00:05:33 ; elapsed = 17:18:04 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:14 ; elapsed = 00:04:47 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 15f364088
+Phase 3.3 Area Swap Optimization | Checksum: 1bff04eb6
 
-Time (s): cpu = 00:05:34 ; elapsed = 17:18:05 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:15 ; elapsed = 00:04:47 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 17221a8f5
+Phase 3.4 Pipeline Register Optimization | Checksum: 1a2cb9861
 
-Time (s): cpu = 00:05:34 ; elapsed = 17:18:06 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:15 ; elapsed = 00:04:48 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 1c07e67d4
+Phase 3.5 Timing Path Optimizer | Checksum: 130d01901
 
-Time (s): cpu = 00:05:37 ; elapsed = 17:18:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:16 ; elapsed = 00:04:52 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.6 Small Shape Detail Placement
 
 Phase 3.6.1 Place Remaining
-Phase 3.6.1 Place Remaining | Checksum: f6663584
+Phase 3.6.1 Place Remaining | Checksum: 15fc1cd32
 
-Time (s): cpu = 00:05:54 ; elapsed = 17:18:42 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 3.6 Small Shape Detail Placement | Checksum: f6663584
+Time (s): cpu = 00:05:36 ; elapsed = 00:05:21 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 3.6 Small Shape Detail Placement | Checksum: 15fc1cd32
 
-Time (s): cpu = 00:05:55 ; elapsed = 17:18:43 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:37 ; elapsed = 00:05:22 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 17e3ef228
+Phase 3.7 Re-assign LUT pins | Checksum: e2a9b6d5
 
-Time (s): cpu = 00:05:57 ; elapsed = 17:18:46 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:39 ; elapsed = 00:05:25 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 929e95bf
+Phase 3.8 Pipeline Register Optimization | Checksum: f6fc6877
 
-Time (s): cpu = 00:05:58 ; elapsed = 17:18:47 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 929e95bf
+Time (s): cpu = 00:05:40 ; elapsed = 00:05:26 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: f6fc6877
 
-Time (s): cpu = 00:05:59 ; elapsed = 17:18:49 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:41 ; elapsed = 00:05:27 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -326,48 +326,48 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-INFO: [Place 30-746] Post Placement Timing Summary WNS=4.089. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: a02a968f
+INFO: [Place 30-746] Post Placement Timing Summary WNS=4.627. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 7580059c
 
-Time (s): cpu = 00:06:13 ; elapsed = 17:19:11 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: a02a968f
+Time (s): cpu = 00:05:55 ; elapsed = 00:05:47 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 7580059c
 
-Time (s): cpu = 00:06:13 ; elapsed = 17:19:12 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:56 ; elapsed = 00:05:48 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: a02a968f
+Phase 4.2 Post Placement Cleanup | Checksum: 7580059c
 
-Time (s): cpu = 00:06:14 ; elapsed = 17:19:13 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:57 ; elapsed = 00:05:49 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: a02a968f
+Phase 4.3 Placer Reporting | Checksum: 7580059c
 
-Time (s): cpu = 00:06:15 ; elapsed = 17:19:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:58 ; elapsed = 00:05:49 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 16f1bfe11
+Phase 4.4 Final Placement Cleanup | Checksum: 144716d1e
 
-Time (s): cpu = 00:06:15 ; elapsed = 17:19:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 16f1bfe11
+Time (s): cpu = 00:05:58 ; elapsed = 00:05:50 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 144716d1e
 
-Time (s): cpu = 00:06:16 ; elapsed = 17:19:15 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Ending Placer Task | Checksum: 1375b669b
+Time (s): cpu = 00:05:59 ; elapsed = 00:05:51 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Ending Placer Task | Checksum: f84bf69f
 
-Time (s): cpu = 00:06:16 ; elapsed = 17:19:15 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:05:59 ; elapsed = 00:05:51 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 94 Infos, 52 Warnings, 2 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:06:29 ; elapsed = 17:19:24 . Memory (MB): peak = 2868.344 ; gain = 0.000
+place_design: Time (s): cpu = 00:06:09 ; elapsed = 00:06:00 . Memory (MB): peak = 2871.191 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2868.344 ; gain = 0.000
-report_io: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.138 . Memory (MB): peak = 2868.344 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 2868.344 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.303 . Memory (MB): peak = 2868.344 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:18 . Memory (MB): peak = 2871.191 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 2871.191 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.892 . Memory (MB): peak = 2871.191 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.266 . Memory (MB): peak = 2871.191 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
@@ -379,119 +379,118 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 4b3fe777 ConstDB: 0 ShapeSum: ec1b7f24 RouteDB: 0
+Checksum: PlaceDB: c30777b ConstDB: 0 ShapeSum: ec1b7f24 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: f1908d25
+Phase 1 Build RT Design | Checksum: 11250f6a9
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:24 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: f1908d25
+Phase 2.1 Create Timer | Checksum: 11250f6a9
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:25 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: f1908d25
+Phase 2.2 Fix Topology Constraints | Checksum: 11250f6a9
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:27 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: f1908d25
+Phase 2.3 Pre Route Cleanup | Checksum: 11250f6a9
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:27 . Memory (MB): peak = 2871.191 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1852ea09d
+Phase 2.4 Update Timing | Checksum: 243110b96
 
-Time (s): cpu = 00:01:03 ; elapsed = 00:00:55 . Memory (MB): peak = 2868.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.199  | TNS=0.000  | WHS=-0.409 | THS=-1894.501|
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:58 . Memory (MB): peak = 2871.191 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.800  | TNS=0.000  | WHS=-0.352 | THS=-1740.927|
 
-Phase 2 Router Initialization | Checksum: 1ebdf64af
+Phase 2 Router Initialization | Checksum: 16bc0e8c1
 
-Time (s): cpu = 00:01:16 ; elapsed = 00:01:09 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:01:16 ; elapsed = 00:01:09 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 14011b575
+Phase 3 Initial Routing | Checksum: 9a137565
 
-Time (s): cpu = 00:02:10 ; elapsed = 00:01:44 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:42 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 10887
- Number of Nodes with overlaps = 817
- Number of Nodes with overlaps = 127
+ Number of Nodes with overlaps = 10583
+ Number of Nodes with overlaps = 775
+ Number of Nodes with overlaps = 176
  Number of Nodes with overlaps = 0
 
 Phase 4.1.1 Update Timing
-Phase 4.1.1 Update Timing | Checksum: 1249335f3
+Phase 4.1.1 Update Timing | Checksum: 1252f3c62
 
-Time (s): cpu = 00:02:59 ; elapsed = 00:02:28 . Memory (MB): peak = 2868.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.401  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:03:04 ; elapsed = 00:02:39 . Memory (MB): peak = 2871.191 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.601  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 1c1e3c687
+Phase 4.1 Global Iteration 0 | Checksum: b7afe708
 
-Time (s): cpu = 00:03:00 ; elapsed = 00:02:29 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:05 ; elapsed = 00:02:40 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 2
  Number of Nodes with overlaps = 2
  Number of Nodes with overlaps = 0
 
 Phase 4.2.1 Update Timing
-Phase 4.2.1 Update Timing | Checksum: 1d0efde7f
+Phase 4.2.1 Update Timing | Checksum: 1dc600fef
 
-Time (s): cpu = 00:03:02 ; elapsed = 00:02:32 . Memory (MB): peak = 2868.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.401  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:03:06 ; elapsed = 00:02:42 . Memory (MB): peak = 2871.191 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.601  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 13e694555
+Phase 4.2 Global Iteration 1 | Checksum: 2026033f3
 
-Time (s): cpu = 00:03:03 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 13e694555
+Time (s): cpu = 00:03:07 ; elapsed = 00:02:43 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 2026033f3
 
-Time (s): cpu = 00:03:03 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:07 ; elapsed = 00:02:44 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 13e694555
+Phase 5.1 Delay CleanUp | Checksum: 2026033f3
 
-Time (s): cpu = 00:03:03 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:07 ; elapsed = 00:02:44 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 13e694555
+Phase 5.2 Clock Skew Optimization | Checksum: 2026033f3
 
-Time (s): cpu = 00:03:04 ; elapsed = 00:02:33 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 13e694555
+Time (s): cpu = 00:03:07 ; elapsed = 00:02:44 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 2026033f3
 
-Time (s): cpu = 00:03:04 ; elapsed = 00:02:34 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:07 ; elapsed = 00:02:44 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 124df6373
+Phase 6.1.1 Update Timing | Checksum: 2639adb50
 
-Time (s): cpu = 00:03:08 ; elapsed = 00:02:38 . Memory (MB): peak = 2868.344 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.401  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+Time (s): cpu = 00:03:10 ; elapsed = 00:02:48 . Memory (MB): peak = 2871.191 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.601  | TNS=0.000  | WHS=0.008  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 18a02f578
+Phase 6.1 Hold Fix Iter | Checksum: 2735f4c80
 
-Time (s): cpu = 00:03:08 ; elapsed = 00:02:38 . Memory (MB): peak = 2868.344 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 18a02f578
+Time (s): cpu = 00:03:10 ; elapsed = 00:02:48 . Memory (MB): peak = 2871.191 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 2735f4c80
 
-Time (s): cpu = 00:03:08 ; elapsed = 00:02:38 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:10 ; elapsed = 00:02:48 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 5.35778 %
-  Global Horizontal Routing Utilization  = 6.56003 %
+  Global Vertical Routing Utilization    = 5.24441 %
+  Global Horizontal Routing Utilization  = 6.33133 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -500,16 +499,16 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: e4457fb3
+Phase 7 Route finalize | Checksum: 2735f4c80
 
-Time (s): cpu = 00:03:09 ; elapsed = 00:02:39 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:11 ; elapsed = 00:02:49 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: e4457fb3
+Phase 8 Verifying routed nets | Checksum: 2735f4c80
 
-Time (s): cpu = 00:03:09 ; elapsed = 00:02:39 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:11 ; elapsed = 00:02:49 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 9 Depositing Routes
 INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt0_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y0/GTREFCLK1
@@ -522,45 +521,45 @@ INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy
 INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_block_i/jesd204_phy_dac_gt/inst/jesd204_phy_dac_gt_i/gt7_jesd204_phy_dac_gt_i/gtxe2_i/GTREFCLK0 to physical pin GTXE2_CHANNEL_X0Y7/GTNORTHREFCLK1
 INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_gt_common_i/jesd204_0_common/gtxe2_common_i/GTREFCLK0 to physical pin GTXE2_COMMON_X0Y0/GTREFCLK1
 INFO: [Route 35-467] Router swapped GT pin u_ad9172_inf/u_design_1/u_jesd204_phy_dac/inst/jesd204_phy_gt_common_i/jesd204_1_common/gtxe2_common_i/GTREFCLK0 to physical pin GTXE2_COMMON_X0Y1/GTNORTHREFCLK1
-Phase 9 Depositing Routes | Checksum: d99f98ae
+Phase 9 Depositing Routes | Checksum: 26d922c78
 
-Time (s): cpu = 00:03:12 ; elapsed = 00:02:44 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:54 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=2.401  | TNS=0.000  | WHS=0.025  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=2.601  | TNS=0.000  | WHS=0.008  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: d99f98ae
+Phase 10 Post Router Timing | Checksum: 26d922c78
 
-Time (s): cpu = 00:03:13 ; elapsed = 00:02:45 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:55 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:03:16 ; elapsed = 00:02:48 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Time (s): cpu = 00:03:17 ; elapsed = 00:02:58 . Memory (MB): peak = 2871.191 ; gain = 0.000
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 118 Infos, 52 Warnings, 2 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:03:27 ; elapsed = 00:03:01 . Memory (MB): peak = 2868.344 ; gain = 0.000
+route_design: Time (s): cpu = 00:03:26 ; elapsed = 00:03:06 . Memory (MB): peak = 2871.191 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:26 ; elapsed = 00:00:15 . Memory (MB): peak = 2868.344 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 2868.344 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_drc_routed.rpt.
-report_drc: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/NewLand/Learn/Verilog/clock/project/misc/trunk/prj/dac.runs/impl_1/top_methodology_drc_routed.rpt.
-report_methodology: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_methodology: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2871.191 ; gain = 0.000
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-report_timing_summary: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_timing_summary: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2871.191 ; gain = 0.000
 Command: report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 Running Vector-less Activity Propagation...
 
@@ -569,8 +568,8 @@ WARNING: [Power 33-332] Found switching activity that implies high-fanout reset 
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
 128 Infos, 53 Warnings, 2 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 2868.344 ; gain = 0.000
-report_clock_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2868.344 ; gain = 0.000
+report_power: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2871.191 ; gain = 0.000
+report_clock_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2871.191 ; gain = 0.000
 Command: write_bitstream -force -no_partial_bitfile top.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
@@ -698,6 +697,6 @@ INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Common 17-83] Releasing license: Implementation
 135 Infos, 153 Warnings, 2 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 3472.605 ; gain = 604.262
+write_bitstream: Time (s): cpu = 00:01:09 ; elapsed = 00:01:34 . Memory (MB): peak = 3460.914 ; gain = 589.723
 INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file top.hwdef
-INFO: [Common 17-206] Exiting Vivado at Sat Jan 04 15:15:03 2025...
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 11 16:33:41 2025...

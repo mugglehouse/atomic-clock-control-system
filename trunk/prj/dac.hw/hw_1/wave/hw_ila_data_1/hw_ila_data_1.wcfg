@@ -9,15 +9,17 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="607649fs"></ZoomEndTime>
-      <Cursor1Time time="233000fs"></Cursor1Time>
+      <ZoomStartTime time="838507fs"></ZoomStartTime>
+      <ZoomEndTime time="846448fs"></ZoomEndTime>
+      <Cursor1Time time="842000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="250"></NameColumnWidth>
-      <ValueColumnWidth column_width="276"></ValueColumnWidth>
+      <NameColumnWidth column_width="343"></NameColumnWidth>
+      <ValueColumnWidth column_width="54"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="22" />
+   <wave_markers>
+   </wave_markers>
    <wvobject fp_name="u_ad_inf/adc_ready" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">u_ad_inf/adc_ready</obj_property>
@@ -34,7 +36,7 @@
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_ctrl_module/adc_data_sample[11:0]</obj_property>
       <obj_property name="ObjectShortName">adc_data_sample[11:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
       <obj_property name="CellHeight">100</obj_property>
@@ -117,7 +119,7 @@
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">u_ad_inf/u_adc_sample_interface/u_iob_module_int/adc_data0_sample[11:0]</obj_property>
       <obj_property name="ObjectShortName">adc_data0_sample[11:0]</obj_property>
-      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
       <obj_property name="CellHeight">100</obj_property>

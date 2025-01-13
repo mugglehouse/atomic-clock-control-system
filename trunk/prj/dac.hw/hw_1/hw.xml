@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.        -->
 
 <hwsession version="1" minor="2">
-  <device name="xc7k325t_0" gui_info="dashboard1=hw_ila_1[xc7k325t_0/hw_ila_1/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_1/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_1/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;],dashboard2=hw_ila_2[xc7k325t_0/hw_ila_2/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_2/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_2/Capture Setup=ILA_CAPTURE_1;xc7k325t_0/hw_ila_2/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_2/Settings=ILA_SETTINGS_1;],dashboard3=hw_ila_3[xc7k325t_0/hw_ila_3/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_3/Capture Setup=ILA_CAPTURE_1;xc7k325t_0/hw_ila_3/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_3/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_3/Waveform=ILA_WAVE_1;],dashboard4=hw_ila_4[xc7k325t_0/hw_ila_4/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_4/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_4/Capture Setup=ILA_CAPTURE_1;xc7k325t_0/hw_ila_4/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_4/Trigger Setup=ILA_TRIGGER_1;],dashboard5=hw_ila_5[xc7k325t_0/hw_ila_5/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_5/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_5/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_5/Capture Setup=ILA_CAPTURE_1;xc7k325t_0/hw_ila_5/Waveform=ILA_WAVE_1;],dashboard6=hw_ila_6[xc7k325t_0/hw_ila_6/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_6/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_6/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_6/Capture Setup=ILA_CAPTURE_1;xc7k325t_0/hw_ila_6/Settings=ILA_SETTINGS_1;],dashboard7=dashboard_1[xc7k325t_0/hw_vio_3=VIO_PROBES_3;xc7k325t_0/hw_vio_2=VIO_PROBES_2;xc7k325t_0/hw_vio_1=VIO_PROBES_1;],dashboard8=dashboard_2[xc7k325t_0/XADC=XADC_PLOT_1;]"/>
+  <device name="xc7k325t_0" gui_info=""/>
   <ObjectList object_type="hw_device" gui_info="">
     <Object name="xc7k325t_0" gui_info="">
       <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
@@ -33,6 +33,7 @@
       <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
     </Object>
     <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.DATA_DEPTH" value="1024"/>
       <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
       <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
     </Object>
@@ -58,9 +59,9 @@
     </Object>
   </ObjectList>
   <ObjectList object_type="hw_probe" gui_info="">
-    <Object name="ADC_TO_TEST_VIO" gui_info="hw_vios/hw_vio_1=1,dashboard_2/hw_vio_1=3,dashboard_1/hw_vio_1=4,dashboard_3/hw_vio_1=4,dashboard_4/hw_vio_1=5,dashboard_5/hw_vio_1=0"/>
-    <Object name="DAC_DDS_CARRIER_FREQ_VIO[47:0]" gui_info="hw_vios/hw_vio_1=8,dashboard_2/hw_vio_1=4,dashboard_1/hw_vio_1=5,dashboard_3/hw_vio_1=5,dashboard_4/hw_vio_1=6,dashboard_5/hw_vio_1=4"/>
-    <Object name="DAC_DDS_FSC_CURRENT_VIO[9:0]" gui_info="hw_vios/hw_vio_1=9,dashboard_2/hw_vio_1=6,dashboard_1/hw_vio_1=13,dashboard_3/hw_vio_1=6,dashboard_4/hw_vio_1=0,dashboard_5/hw_vio_1=9"/>
+    <Object name="ADC_TO_TEST_VIO" gui_info="hw_vios/hw_vio_1=1,dashboard_2/hw_vio_1=3,dashboard_1/hw_vio_1=3,dashboard_3/hw_vio_1=3,dashboard_4/hw_vio_1=5,dashboard_5/hw_vio_1=0"/>
+    <Object name="DAC_DDS_CARRIER_FREQ_VIO[47:0]" gui_info="hw_vios/hw_vio_1=8,dashboard_2/hw_vio_1=4,dashboard_1/hw_vio_1=4,dashboard_3/hw_vio_1=4,dashboard_4/hw_vio_1=6,dashboard_5/hw_vio_1=4"/>
+    <Object name="DAC_DDS_FSC_CURRENT_VIO[9:0]" gui_info="hw_vios/hw_vio_1=9,dashboard_2/hw_vio_1=6,dashboard_1/hw_vio_1=6,dashboard_3/hw_vio_1=6,dashboard_4/hw_vio_1=0,dashboard_5/hw_vio_1=9"/>
     <Object name="DDS_AMP_MULTIP_VIO[14:0]" gui_info="hw_vios/hw_vio_2=9,dashboard_1/hw_vio_3=0,hw_vios/hw_vio_3=0,dashboard_3/hw_vio_3=6,dashboard_2/hw_vio_3=2,dashboard_4/hw_vio_3=6,dashboard_5/hw_vio_3=0"/>
     <Object name="DDS_ATT_0p1dB_VIO[9:0]" gui_info="hw_vios/hw_vio_2=0,dashboard_1/hw_vio_3=7,hw_vios/hw_vio_3=7,dashboard_3/hw_vio_3=0,dashboard_2/hw_vio_3=7,dashboard_4/hw_vio_3=0,dashboard_5/hw_vio_3=7"/>
     <Object name="DDS_FIN_HEX_VIO[31:0]" gui_info="hw_vios/hw_vio_2=1,dashboard_1/hw_vio_3=1,hw_vios/hw_vio_3=1,dashboard_3/hw_vio_3=7,dashboard_2/hw_vio_3=3,dashboard_4/hw_vio_3=7,dashboard_5/hw_vio_3=1"/>
@@ -73,27 +74,27 @@
     <Object name="DDS_FREQHOP_STOP_kHz_VIO[15:0]" gui_info="dashboard_1/hw_vio_3=3,dashboard_3/hw_vio_3=9,dashboard_2/hw_vio_3=9,dashboard_4/hw_vio_3=9,dashboard_5/hw_vio_3=3"/>
     <Object name="DDS_FREQHOP_kHz_VIO[15:0]" gui_info="hw_vios/hw_vio_2=4,dashboard_1/hw_vio_3=10,hw_vios/hw_vio_3=10,dashboard_3/hw_vio_3=3,dashboard_2/hw_vio_3=4,dashboard_4/hw_vio_3=3,dashboard_5/hw_vio_3=10"/>
     <Object name="DDS_IMD_INTERVAL_kHz_VIO[19:0]" gui_info="hw_vios/hw_vio_2=5,dashboard_1/hw_vio_3=4,hw_vios/hw_vio_3=4,dashboard_3/hw_vio_3=10,dashboard_2/hw_vio_3=10,dashboard_4/hw_vio_3=10,dashboard_5/hw_vio_3=4"/>
-    <Object name="DDS_MODE_VIO[3:0]" gui_info="hw_vios/hw_vio_2=12,dashboard_1/hw_vio_3=11,hw_vios/hw_vio_3=11,dashboard_3/hw_vio_3=4,dashboard_2/hw_vio_3=5,dashboard_4/hw_vio_3=4,dashboard_5/hw_vio_3=11"/>
-    <Object name="DDS_PRT_CYCLE_VIO[31:0]" gui_info="hw_vios/hw_vio_2=6,dashboard_1/hw_vio_3=12,hw_vios/hw_vio_3=12,dashboard_3/hw_vio_3=5,dashboard_2/hw_vio_3=6,dashboard_4/hw_vio_3=5,dashboard_5/hw_vio_3=12"/>
-    <Object name="DDS_PRT_WIDTH_VIO[31:0]" gui_info="hw_vios/hw_vio_2=7,dashboard_1/hw_vio_3=5,hw_vios/hw_vio_3=5,dashboard_3/hw_vio_3=11,dashboard_2/hw_vio_3=11,dashboard_4/hw_vio_3=11,dashboard_5/hw_vio_3=5"/>
+    <Object name="DDS_MODE_VIO[3:0]" gui_info="hw_vios/hw_vio_2=12,dashboard_1/hw_vio_3=5,hw_vios/hw_vio_3=11,dashboard_3/hw_vio_3=4,dashboard_2/hw_vio_3=5,dashboard_4/hw_vio_3=4,dashboard_5/hw_vio_3=11"/>
+    <Object name="DDS_PRT_CYCLE_VIO[31:0]" gui_info="hw_vios/hw_vio_2=6,dashboard_1/hw_vio_3=6,hw_vios/hw_vio_3=12,dashboard_3/hw_vio_3=5,dashboard_2/hw_vio_3=6,dashboard_4/hw_vio_3=5,dashboard_5/hw_vio_3=12"/>
+    <Object name="DDS_PRT_WIDTH_VIO[31:0]" gui_info="hw_vios/hw_vio_2=7,dashboard_1/hw_vio_3=11,hw_vios/hw_vio_3=5,dashboard_3/hw_vio_3=11,dashboard_2/hw_vio_3=11,dashboard_4/hw_vio_3=11,dashboard_5/hw_vio_3=5"/>
     <Object name="DDS_VC_AMP_VIO" gui_info="dashboard_1/hw_vio_2=3"/>
     <Object name="DDS_VC_AMP_VIO[15:0]" gui_info="dashboard_1/hw_vio_2=0,dashboard_3/hw_vio_2=0,dashboard_2/hw_vio_2=0,dashboard_4/hw_vio_2=0,dashboard_5/hw_vio_2=0"/>
     <Object name="DDS_VC_DC_OFFSET_VIO" gui_info="dashboard_1/hw_vio_2=4"/>
     <Object name="DDS_VC_DC_OFFSET_VIO[15:0]" gui_info="dashboard_1/hw_vio_2=1,dashboard_3/hw_vio_2=1,dashboard_2/hw_vio_2=1,dashboard_4/hw_vio_2=1,dashboard_5/hw_vio_2=1"/>
     <Object name="DDS_VC_FREQ_VIO" gui_info="dashboard_1/hw_vio_2=5"/>
     <Object name="DDS_VC_FREQ_VIO[31:0]" gui_info="dashboard_3/hw_vio_2=2,dashboard_2/hw_vio_2=2,dashboard_1/hw_vio_2=2,dashboard_4/hw_vio_2=2,dashboard_5/hw_vio_2=2"/>
-    <Object name="RESET_DDS_VIO" gui_info="hw_vios/hw_vio_2=8,dashboard_1/hw_vio_3=6,hw_vios/hw_vio_3=6,dashboard_3/hw_vio_3=12,dashboard_2/hw_vio_3=12,dashboard_4/hw_vio_3=12,dashboard_5/hw_vio_3=6"/>
-    <Object name="RST_ADC_VIO" gui_info="hw_vios/hw_vio_1=10,dashboard_2/hw_vio_1=7,dashboard_1/hw_vio_1=6,dashboard_3/hw_vio_1=7,dashboard_4/hw_vio_1=7,dashboard_5/hw_vio_1=5"/>
-    <Object name="RST_DAC_DDS_VIO" gui_info="hw_vios/hw_vio_1=2,dashboard_2/hw_vio_1=8,dashboard_1/hw_vio_1=7,dashboard_3/hw_vio_1=8,dashboard_4/hw_vio_1=8,dashboard_5/hw_vio_1=10"/>
-    <Object name="RST_DAC_VC_VIO" gui_info="hw_vios/hw_vio_1=11,dashboard_2/hw_vio_1=9,dashboard_1/hw_vio_1=8,dashboard_3/hw_vio_1=9,dashboard_4/hw_vio_1=9,dashboard_5/hw_vio_1=11"/>
-    <Object name="VIO_DAC1_DC[15:0]" gui_info="hw_vios/hw_vio_1=3,dashboard_2/hw_vio_1=10,dashboard_1/hw_vio_1=9,dashboard_3/hw_vio_1=10,dashboard_4/hw_vio_1=10,dashboard_5/hw_vio_1=12"/>
-    <Object name="VIO_DAC1_FSC[9:0]" gui_info="hw_vios/hw_vio_1=4,dashboard_2/hw_vio_1=5,dashboard_1/hw_vio_1=0,dashboard_3/hw_vio_1=0,dashboard_4/hw_vio_1=1,dashboard_5/hw_vio_1=13"/>
-    <Object name="VIO_DAC1_MODE[1:0]" gui_info="hw_vios/hw_vio_1=5,dashboard_2/hw_vio_1=11,dashboard_1/hw_vio_1=10,dashboard_3/hw_vio_1=11,dashboard_4/hw_vio_1=11,dashboard_5/hw_vio_1=6"/>
-    <Object name="VIO_DAC2_FSC[9:0]" gui_info="hw_vios/hw_vio_1=12,dashboard_2/hw_vio_1=12,dashboard_1/hw_vio_1=11,dashboard_3/hw_vio_1=12,dashboard_4/hw_vio_1=12,dashboard_5/hw_vio_1=7"/>
-    <Object name="VIO_DAC2_MODE[1:0]" gui_info="hw_vios/hw_vio_1=13,dashboard_2/hw_vio_1=13,dashboard_1/hw_vio_1=12,dashboard_3/hw_vio_1=13,dashboard_4/hw_vio_1=13,dashboard_5/hw_vio_1=8"/>
-    <Object name="adc_ready" gui_info="hw_vios/hw_vio_1=6,dashboard_2/hw_vio_1=0,dashboard_1/hw_vio_1=1,dashboard_3/hw_vio_1=1,dashboard_4/hw_vio_1=2,dashboard_5/hw_vio_1=1"/>
-    <Object name="dac_dds_ready" gui_info="hw_vios/hw_vio_1=0_exp,dashboard_2/hw_vio_1=1,dashboard_1/hw_vio_1=2,dashboard_3/hw_vio_1=2,dashboard_4/hw_vio_1=3,dashboard_5/hw_vio_1=2"/>
-    <Object name="dac_vc_ready" gui_info="hw_vios/hw_vio_1=7,dashboard_2/hw_vio_1=2,dashboard_1/hw_vio_1=3,dashboard_3/hw_vio_1=3,dashboard_4/hw_vio_1=4,dashboard_5/hw_vio_1=3"/>
+    <Object name="RESET_DDS_VIO" gui_info="hw_vios/hw_vio_2=8,dashboard_1/hw_vio_3=12,hw_vios/hw_vio_3=6,dashboard_3/hw_vio_3=12,dashboard_2/hw_vio_3=12,dashboard_4/hw_vio_3=12,dashboard_5/hw_vio_3=6"/>
+    <Object name="RST_ADC_VIO" gui_info="hw_vios/hw_vio_1=10,dashboard_2/hw_vio_1=7,dashboard_1/hw_vio_1=7,dashboard_3/hw_vio_1=7,dashboard_4/hw_vio_1=7,dashboard_5/hw_vio_1=5"/>
+    <Object name="RST_DAC_DDS_VIO" gui_info="hw_vios/hw_vio_1=2,dashboard_2/hw_vio_1=8,dashboard_1/hw_vio_1=8,dashboard_3/hw_vio_1=8,dashboard_4/hw_vio_1=8,dashboard_5/hw_vio_1=10"/>
+    <Object name="RST_DAC_VC_VIO" gui_info="hw_vios/hw_vio_1=11,dashboard_2/hw_vio_1=9,dashboard_1/hw_vio_1=9,dashboard_3/hw_vio_1=9,dashboard_4/hw_vio_1=9,dashboard_5/hw_vio_1=11"/>
+    <Object name="VIO_DAC1_DC[15:0]" gui_info="hw_vios/hw_vio_1=3,dashboard_2/hw_vio_1=10,dashboard_1/hw_vio_1=10,dashboard_3/hw_vio_1=10,dashboard_4/hw_vio_1=10,dashboard_5/hw_vio_1=12"/>
+    <Object name="VIO_DAC1_FSC[9:0]" gui_info="hw_vios/hw_vio_1=4,dashboard_2/hw_vio_1=5,dashboard_1/hw_vio_1=5,dashboard_3/hw_vio_1=5,dashboard_4/hw_vio_1=1,dashboard_5/hw_vio_1=13"/>
+    <Object name="VIO_DAC1_MODE[1:0]" gui_info="hw_vios/hw_vio_1=5,dashboard_2/hw_vio_1=11,dashboard_1/hw_vio_1=11,dashboard_3/hw_vio_1=11,dashboard_4/hw_vio_1=11,dashboard_5/hw_vio_1=6"/>
+    <Object name="VIO_DAC2_FSC[9:0]" gui_info="hw_vios/hw_vio_1=12,dashboard_2/hw_vio_1=12,dashboard_1/hw_vio_1=12,dashboard_3/hw_vio_1=12,dashboard_4/hw_vio_1=12,dashboard_5/hw_vio_1=7"/>
+    <Object name="VIO_DAC2_MODE[1:0]" gui_info="hw_vios/hw_vio_1=13,dashboard_2/hw_vio_1=13,dashboard_1/hw_vio_1=13,dashboard_3/hw_vio_1=13,dashboard_4/hw_vio_1=13,dashboard_5/hw_vio_1=8"/>
+    <Object name="adc_ready" gui_info="hw_vios/hw_vio_1=6,dashboard_2/hw_vio_1=0,dashboard_1/hw_vio_1=0,dashboard_3/hw_vio_1=0,dashboard_4/hw_vio_1=2,dashboard_5/hw_vio_1=1"/>
+    <Object name="dac_dds_ready" gui_info="hw_vios/hw_vio_1=0_exp,dashboard_2/hw_vio_1=1,dashboard_1/hw_vio_1=1,dashboard_3/hw_vio_1=1,dashboard_4/hw_vio_1=3,dashboard_5/hw_vio_1=2"/>
+    <Object name="dac_vc_ready" gui_info="hw_vios/hw_vio_1=7,dashboard_2/hw_vio_1=2,dashboard_1/hw_vio_1=2,dashboard_3/hw_vio_1=2,dashboard_4/hw_vio_1=4,dashboard_5/hw_vio_1=3"/>
     <Object name="u_vio_dac_vc_dds/probe_out0[31:1]" gui_info="dashboard_1/hw_vio_2=0"/>
     <Object name="u_vio_dac_vc_dds/probe_out1[15:1]" gui_info="dashboard_1/hw_vio_2=1"/>
     <Object name="u_vio_dac_vc_dds/probe_out2[15:1]" gui_info="dashboard_1/hw_vio_2=2"/>
@@ -103,7 +104,7 @@
   </ObjectList>
   <ObjectList object_type="hw_vio" gui_info="">
     <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	541	Name	0	2147483647	15	219	219	Value	1	2147483647	15	130	130	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_1/hw_vio_1/TablePreference=5	571	Name	0	2147483647	15	219	219	Value	1	2147483647	15	160	160	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO"/>
-    <Object name="hw_vio_2" gui_info="hw_vios/hw_vio_2/TablePreference=5	734	Name	0	2147483647	15	263	263	Value	1	2147483647	15	279	279	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_1/hw_vio_2/TablePreference=5	493	Name	0	2147483647	15	195	195	Value	1	2147483647	15	106	106	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_2/hw_vio_2/TablePreference=5	534	Name	0	2147483647	15	195	195	Value	1	2147483647	15	147	147	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_5/hw_vio_2/TablePreference=5	475	Name	0	2147483647	15	195	195	Value	1	2147483647	15	88	88	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO"/>
+    <Object name="hw_vio_2" gui_info="hw_vios/hw_vio_2/TablePreference=5	734	Name	0	2147483647	15	263	263	Value	1	2147483647	15	279	279	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_1/hw_vio_2/TablePreference=5	524	Name	0	2147483647	15	195	195	Value	1	2147483647	15	137	137	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_2/hw_vio_2/TablePreference=5	534	Name	0	2147483647	15	195	195	Value	1	2147483647	15	147	147	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_5/hw_vio_2/TablePreference=5	475	Name	0	2147483647	15	195	195	Value	1	2147483647	15	88	88	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO"/>
     <Object name="hw_vio_3" gui_info="dashboard_1/hw_vio_3/TablePreference=5	517	Name	0	2147483647	15	225	225	Value	1	2147483647	15	100	100	Activity	2	2147483647	15	67	67	Direction	3	2147483647	15	73	73	VIO	4	2147483647	15	52	52			1	6	1	Name	Value	Activity	Direction	VIO"/>
   </ObjectList>
   <probeset name="hw project" active="false">
@@ -10305,7 +10306,7 @@
         <Option Id="HW_VIO" value="hw_vio_2"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Long"/>
-        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE" value="12500"/>
         <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
         <Option Id="SOURCE" value="netlist"/>
       </probeOptions>
@@ -10350,7 +10351,7 @@
         <Option Id="HW_VIO" value="hw_vio_2"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Long"/>
-        <Option Id="OUTPUT_VALUE" value="32765"/>
+        <Option Id="OUTPUT_VALUE" value="12500"/>
         <Option Id="OUTPUT_VALUE_RADIX" value="SIGNED"/>
         <Option Id="SOURCE" value="netlist"/>
       </probeOptions>
@@ -10395,7 +10396,7 @@
         <Option Id="HW_VIO" value="hw_vio_2"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Long"/>
-        <Option Id="OUTPUT_VALUE" value="8"/>
+        <Option Id="OUTPUT_VALUE" value="8000000"/>
         <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
         <Option Id="SOURCE" value="netlist"/>
       </probeOptions>

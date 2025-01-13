@@ -27,8 +27,12 @@ input               iob_adc_fcoclk_p          ,
 input               iob_adc_fcoclk_n          ,  
 output              iob_adc_clk_p             ,
 output              iob_adc_clk_n             ,
-input      [1:0]    iob_adc_data0_in_p        ,  
-input      [1:0]    iob_adc_data0_in_n        ,
+// input      [1:0]    iob_adc_data0_in_p        ,  
+// input      [1:0]    iob_adc_data0_in_n        ,
+// PD输出的数字接口
+input      [1:0]    iob_adc_data1_in_p        ,  
+input      [1:0]    iob_adc_data1_in_n        ,
+
 output              iob_adc_spi_clk           ,
 output              iob_adc_spi_csb           ,
 inout               iob_adc_spi_dio           ,
@@ -218,14 +222,14 @@ ad_inf                    u_ad_inf(
   .iob_adc_fcoclk_p                 (iob_adc_fcoclk_p                 ),
   .iob_adc_fcoclk_n                 (iob_adc_fcoclk_n                 ),
   .iob_adc_clk_n                    (iob_adc_clk_n                    ),
-  .iob_adc_data0_in_p               (iob_adc_data0_in_p               ),//I，ADC数据输入端口[1:0]
-  .iob_adc_data0_in_n               (iob_adc_data0_in_n               ),//I，ADC数据输入端口
+  .iob_adc_data0_in_p               (iob_adc_data1_in_p               ),//I，ADC数据输出端口[1:0]
+  .iob_adc_data0_in_n               (iob_adc_data1_in_n               ),//I，ADC数据输出端口
   .iob_adc_spi_clk                  (iob_adc_spi_clk                  ),
   .iob_adc_spi_csb                  (iob_adc_spi_csb                  ),
   .iob_adc_spi_dio                  (iob_adc_spi_dio                  ),
   .idelay_rdy                       (idelay_rdy                       ),
   //----------------user ports--------------------------------//      
-  .adc_data_sample                  (adc_data_output                  ),//O，ADC数据输出端口[11:0]
+  .adc_data_sample                  (adc_data_output                  ),//O，重组后的采样数据
   .adc_ready                        (adc_ready                        ),//O，ADC数据准备好标志
    /*---------------------debug------------------------------------*/
   .ADC_TO_TEST_VIO                  (ADC_TO_TEST_VIO                  )//I，设置为0，保持不动
